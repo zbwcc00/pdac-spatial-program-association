@@ -1,0 +1,23 @@
+# Public data are downloaded from GEO locally and must never be committed.
+data/00_raw/*
+!data/00_raw/.gitkeep
+!data/00_raw/**/.gitkeep
+data/01_unpacked/
+data/02_intermediate/
+data/00_raw/download_manifest.json
+
+# Local Python and R environments, caches, and temporary downloads.
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.part
+*.tmp
+*.log
+
+# Credentials and editor state.
+.env
+*.token
+.vscode/
+

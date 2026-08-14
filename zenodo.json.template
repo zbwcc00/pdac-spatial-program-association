@@ -1,0 +1,28 @@
+{
+  "title": "PDAC spatial program association",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "description": "Code, derived results, figures, and manuscript sources for a public-data study of a specified local association between mregDC-like and T-cell/lymphoid transcriptional programs in PDAC. Raw GEO data are not redistributed.",
+  "creators": [
+    {
+      "name": "REPLACE, Author",
+      "affiliation": "REPLACE",
+      "orcid": "0000-0000-0000-0000"
+    }
+  ],
+  "license": "CHOOSE-A-LICENSE",
+  "keywords": [
+    "pancreatic ductal adenocarcinoma",
+    "spatial transcriptomics",
+    "mregDC-like program",
+    "T-cell/lymphoid program",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/OWNER/pdac-spatial-program-association",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}

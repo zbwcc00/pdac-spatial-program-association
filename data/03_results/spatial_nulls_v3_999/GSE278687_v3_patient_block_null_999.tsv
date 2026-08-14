@@ -1,0 +1,2 @@
+cohort	statistic	n_patients	n_null_draws	observed	null_median	null_ci_low	null_ci_high	n_as_or_more_extreme	two_sided_monte_carlo_p
+GSE278687	cohort median of patient-median local r	18	999	0.41832734324688803	0.27023972064604995	0.24605002308559756	0.2941739515885281	0	0.001

@@ -1,0 +1,7 @@
+dataset	units_analysed	role	analysis_level	exclusions_or_boundary
+GSE278687	21 Visium sections from 18 patients	primary coordinate-resolved cohort	patient median across repeated sections	none beyond in-tissue spots and DC-core-above-mean mask
+GSE277116	18 main tumour packages; 3 low-detection frozen packages sensitivity-only	external sample-level technical replication	sample; patient identifiers unavailable	main set prespecified by complete package QC and program scoreability
+GSE217845	10 human resected PDAC tumour matrices	independent marker-gated single-cell corroboration	per sample / gate	GEO lacks accessible author cell-type labels; not author-annotated validation
+GSE155698	not analysed	candidate author-annotation audit	not applicable	GEO supplies raw matrices; author GitHub supplies scripts only; clinical metadata are dbGaP-controlled; no public barcode-to-label mapping located
+GSE212966	not analysed	candidate author-annotation audit	not applicable	GEO supplies raw matrices; article states related code/data available on request; no public barcode-to-label mapping located
+GSE111672	not analysed	candidate author-annotation audit	not applicable	GEO supplies raw matrices; accessible supplementary material documents labels/markers but no public cell barcode-to-label mapping located

@@ -1,0 +1,29 @@
+disease state	gsm	path response	sample type	tissue	tissue subtype	title	treatment arm
+pancreatic ductal adenocarcinoma	GSM8514529	R	FFPE	pancreas	lymph node	pdac1	A
+pancreatic ductal adenocarcinoma	GSM8514530	R	FFPE	pancreas	Tumor	pdac2	A
+pancreatic ductal adenocarcinoma	GSM8514531	R	FFPE	pancreas	lymph node	pdac3	C
+pancreatic ductal adenocarcinoma	GSM8514532	R	FFPE	pancreas	Tumor	pdac4	C
+pancreatic ductal adenocarcinoma	GSM8514533	R	FFPE	pancreas	Tumor	pdac5	A
+pancreatic ductal adenocarcinoma	GSM8514534	NA	FFPE	pancreas	Tumor	pdac6	A
+pancreatic ductal adenocarcinoma	GSM8514535	R	FFPE	pancreas	Tumor	pdac7	C
+pancreatic ductal adenocarcinoma	GSM8514536	NA	FFPE	pancreas	Tumor	pdac8	C
+pancreatic ductal adenocarcinoma	GSM8514537	R	FFPE	pancreas	Tumor	pdac9	B
+pancreatic ductal adenocarcinoma	GSM8514538	NA	FFPE	pancreas	lymph node	pdac10	B
+pancreatic ductal adenocarcinoma	GSM8514539	NA	FFPE	pancreas	Tumor	pdac11	C
+pancreatic ductal adenocarcinoma	GSM8514540	R	FFPE	pancreas	lymph node	pdac12	C
+pancreatic ductal adenocarcinoma	GSM8514541	NA	Frozen	pancreas	tumor	pdac13	A
+pancreatic ductal adenocarcinoma	GSM8514542	NA	Frozen	pancreas	tumor	pdac14	B
+pancreatic ductal adenocarcinoma	GSM8514543	NA	Frozen	pancreas	tumor	pdac15	C
+pancreatic ductal adenocarcinoma	GSM8514544	NA	Frozen	pancreas	tumor	pdac16	B
+pancreatic ductal adenocarcinoma	GSM8514545	NA	Frozen	pancreas	lymph node	pdac17	A
+pancreatic ductal adenocarcinoma	GSM8514546	NA	Frozen	pancreas	tumor	pdac18	B
+pancreatic ductal adenocarcinoma	GSM8514547	NA	Frozen	pancreas	tumor	pdac19	C
+pancreatic ductal adenocarcinoma	GSM8514548	NA	Frozen	pancreas	tumor	pdac20	A
+pancreatic ductal adenocarcinoma	GSM8514549	NA	Frozen	pancreas	tumor	pdac21	A
+pancreatic ductal adenocarcinoma	GSM8514550	NA	Frozen	pancreas	tumor	pdac22	B
+pancreatic ductal adenocarcinoma	GSM8514551	NA	Frozen	pancreas	tumor	pdac23	C
+pancreatic ductal adenocarcinoma	GSM8514552	NA	Frozen	pancreas	tumor	pdac24	A
+pancreatic ductal adenocarcinoma	GSM8514553	NA	Frozen	pancreas	tumor	pdac25	A
+pancreatic ductal adenocarcinoma	GSM8514554	NA	Frozen	pancreas	tumor	pdac26	A
+pancreatic ductal adenocarcinoma	GSM8514555	NA	Frozen	pancreas	tumor	pdac27	C
+pancreatic ductal adenocarcinoma	GSM8514556	NA	Frozen	pancreas	lymph node	pdac28	A

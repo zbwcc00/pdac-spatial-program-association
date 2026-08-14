@@ -1,0 +1,14 @@
+name: pdac-single-cell-attribution-v7
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.13
+  - numpy=2.3.5
+  - scipy=1.18.0
+  - pandas=2.3.3
+  - matplotlib=3.11.1
+  - h5py=3.16.0
+  - anndata=0.12.16
+  - pip
+  - pip:
+      - python-docx==1.2.0

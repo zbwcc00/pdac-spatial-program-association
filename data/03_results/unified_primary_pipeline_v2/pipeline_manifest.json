@@ -1,0 +1,48 @@
+{
+  "version": "v2",
+  "seed": 20260813,
+  "primary_endpoint": "composition-adjusted six-neighbour local mregDC-like--Tfh-like correlation",
+  "covariates": {
+    "both": [
+      "log_library",
+      "PTPRC",
+      "epithelial_proxy",
+      "stromal_proxy"
+    ],
+    "mregDC_extra": [
+      "DC_core"
+    ]
+  },
+  "local_field": "six nearest neighbours; focal spot excluded",
+  "mask": "DC-core above within-sample mean",
+  "GSE278687_aggregation": "patient median across sections",
+  "GSE277116_aggregation": "sample-level only; no patient IDs available",
+  "block_null": {
+    "status": "completed",
+    "method": "within 8x8 array-block outcome permutation; one synchronized cohort-level null draw aggregates section effects to patient medians before cohort median",
+    "draws": 199
+  },
+  "graph_null": {
+    "status": "completed",
+    "method": "rank-preserving Moran-matched graph-filtered null on a symmetric six-nearest-neighbour graph; each surrogate draw continuously calibrates graph-filter strength to the observed outcome Moran I",
+    "draws_per_section": 199,
+    "max_graph_filter_steps": 12,
+    "bisection_iterations": 12
+  },
+  "competition": {
+    "status": "completed",
+    "reference_programs": [
+      "broad_T_nonoverlap",
+      "non_Tfh_CD4_nonoverlap",
+      "Treg_nonoverlap",
+      "exhausted_CD8_nonoverlap",
+      "cDC_nonoverlap",
+      "macrophage_nonoverlap"
+    ],
+    "constraint": "no genes overlap frozen Tfh-like signature",
+    "additional": [
+      "joint local-field model",
+      "mregDC CCL19-deletion sensitivity"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "DC_core": {
+    "genes": [
+      "FCER1A",
+      "CLEC10A",
+      "CD1C",
+      "CST3",
+      "HLA-DRA",
+      "HLA-DPA1",
+      "HLA-DPB1"
+    ],
+    "source": "GSE154778 marker-supported freeze",
+    "note": "Scores are log1p-summed; mregDC is restricted to DC candidate compartment."
+  },
+  "mregDC_strict": {
+    "genes": [
+      "LAMP3",
+      "FSCN1",
+      "CCR7",
+      "CCL19",
+      "CD80",
+      "CD86"
+    ],
+    "source": "GSE154778 marker-supported freeze",
+    "note": "Scores are log1p-summed; mregDC is restricted to DC candidate compartment."
+  },
+  "TAM_IL1B_PGE2": {
+    "genes": [
+      "LYZ",
+      "LST1",
+      "FCGR3A",
+      "CTSD",
+      "IL1B",
+      "PTGS2",
+      "PTGER2",
+      "PTGER4",
+      "MARCO",
+      "SPP1",
+      "APOC1",
+      "CCL2",
+      "CCL3",
+      "NLRP3",
+      "IL1A"
+    ],
+    "source": "GSE154778 marker-supported freeze",
+    "note": "Scores are log1p-summed; mregDC is restricted to DC candidate compartment."
+  },
+  "T_cell": {
+    "genes": [
+      "CD3D",
+      "CD3E",
+      "CD247"
+    ],
+    "source": "GSE154778 marker-supported freeze",
+    "note": "Scores are log1p-summed; mregDC is restricted to DC candidate compartment."
+  },
+  "Tfh_like": {
+    "genes": [
+      "CD3D",
+      "CD3E",
+      "CD4",
+      "CXCR5",
+      "PDCD1",
+      "ICOS",
+      "BCL6",
+      "IL7R",
+      "CXCL13"
+    ],
+    "source": "GSE154778 marker-supported freeze",
+    "note": "Scores are log1p-summed; mregDC is restricted to DC candidate compartment."
+  },
+  "B_cell": {
+    "genes": [
+      "CD74",
+      "MS4A1",
+      "CD79A",
+      "CD37",
+      "HLA-DRA",
+      "CD79B",
+      "CD22",
+      "CD83"
+    ],
+    "source": "GSE154778 marker-supported freeze",
+    "note": "Scores are log1p-summed; mregDC is restricted to DC candidate compartment."
+  },
+  "Plasma_cell": {
+    "genes": [
+      "MZB1",
+      "SDC1",
+      "XBP1"
+    ],
+    "source": "GSE154778 marker-supported freeze",
+    "note": "Scores are log1p-summed; mregDC is restricted to DC candidate compartment."
+  },
+  "TLS_maturation": {
+    "genes": [
+      "CCL19",
+      "CCL21",
+      "CXCL13",
+      "LTB",
+      "LTBR",
+      "TNFRSF13B",
+      "CR2",
+      "MS4A1",
+      "CD3D",
+      "CD4",
+      "CD8A",
+      "LAMP3",
+      "FSCN1"
+    ],
+    "source": "GSE154778 marker-supported freeze",
+    "note": "Scores are log1p-summed; mregDC is restricted to DC candidate compartment."
+  }
+}

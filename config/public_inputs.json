@@ -1,0 +1,33 @@
+{
+  "schema": "pdac-spatial-program-association-public-inputs-v1",
+  "policy": "Public GEO archives are downloaded locally and excluded from version control.",
+  "inputs": [
+    {
+      "id": "GSE278687",
+      "destination": "data/00_raw/spatial/GSE278687_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE278nnn/GSE278687/suppl/GSE278687_RAW.tar",
+      "role": "primary patient-level PDAC spatial analysis"
+    },
+    {
+      "id": "GSE277116",
+      "destination": "data/00_raw/spatial/GSE277116_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE277nnn/GSE277116/suppl/GSE277116_RAW.tar",
+      "role": "sample-level external technical replication"
+    },
+    {
+      "id": "GSE217847",
+      "destination": "data/00_raw/spatial/GSE217847_RAW.tar",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE217nnn/GSE217847/suppl/GSE217847_RAW.tar",
+      "role": "limited marker-gated GSE217845 subseries program-detectability QC"
+    },
+    {
+      "id": "GSE202051",
+      "destination": "data/00_raw/single_cell/GSE202051/GSE202051_totaldata-final-toshare.h5ad.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE202nnn/GSE202051/suppl/GSE202051_totaldata-final-toshare.h5ad.gz",
+      "sha256": "e9b43be8b5bf8d7a606b9cb3c972b1bee93826d2c48f7ac565aea0fe57bb1a43",
+      "bytes": 2589715190,
+      "decompress_to": "data/00_raw/single_cell/GSE202051/GSE202051_totaldata-final-toshare.h5ad",
+      "role": "independent author-annotated fixed-program attribution and specificity QC"
+    }
+  ]
+}
