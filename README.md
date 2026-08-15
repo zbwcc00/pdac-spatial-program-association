@@ -96,11 +96,17 @@ only; it intentionally does not download public data or rerun analyses.
 
 ## Publication metadata
 
-Before external release, complete `AUTHORS_LICENSE_AND_RELEASE_REQUIRED.md`,
-replace `CITATION.cff.template` and `zenodo.json.template` with final metadata,
-create and push a tagged GitHub release, then archive that tag in Zenodo. Do
-not insert a repository URL or DOI into the manuscript until GitHub and Zenodo
-have returned them.
+Version 1.0.0 is archived at Zenodo with the version-specific DOI
+[`10.5281/zenodo.21951888`](https://doi.org/10.5281/zenodo.21951888).
+Version 1.0.1 is an integrity-only corrective release: it regenerates the
+public release manifest from LF-normalized, source-controlled files and
+excludes interpreter caches. It does not change analyses, derived results,
+figures, or scientific claims.
+
+Before a future external release, complete
+`AUTHORS_LICENSE_AND_RELEASE_REQUIRED.md`, replace `CITATION.cff.template` and
+`zenodo.json.template` with final metadata, create and push a tagged GitHub
+release, then archive that tag in Zenodo.
 
 ## Data and citation
 

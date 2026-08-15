@@ -1,9 +1,14 @@
 {
   "schema": "pdac-spatial-program-association-public-release-v1",
-  "created_utc": "2026-08-14T16:25:28.374395+00:00",
+  "created_utc": "2026-08-15T15:53:29.165843+00:00",
   "scope": "public code, manuscript sources, derived results, and figures; raw GEO data excluded",
   "input_config": "config/public_inputs.json",
   "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 240,
+      "sha256": "fbf8fc80af537537a9b2b0c6bd45a672a860ec75f451916385d1f7bc0cb42078"
+    },
     {
       "path": ".github/workflows/validate.yml",
       "bytes": 412,
@@ -20,6 +25,11 @@
       "sha256": "bd8e75b0bffe341d77c7e9926fab62c8b1bffb02aa212ad7ff9c9c3ccff16970"
     },
     {
+      "path": "CITATION.cff",
+      "bytes": 1363,
+      "sha256": "77949c17614ab2538d02f94dd733a08b96bfe1043ea0574f9ec961cb3ebcd78c"
+    },
+    {
       "path": "CITATION.cff.template",
       "bytes": 494,
       "sha256": "bd8e2170d8476767b2f3d40141cddfffb74856363291ff309b72614b24a2a1ce"
@@ -31,78 +41,78 @@
     },
     {
       "path": "data/03_results/conditional_scale_joint_sensitivities_v7/cohort_conditional_scale_summary.tsv",
-      "bytes": 6278,
-      "sha256": "b03dfe86bc367cd743819f062b359f3c98550c39d27f68404801b87e13c84e1e"
+      "bytes": 6229,
+      "sha256": "226260027da6bde84f4cc4e59bcb6d2b2c50a164dd725aa2186a6f78495f29bc"
     },
     {
       "path": "data/03_results/GSE154778_program_freeze/frozen_programs.json",
-      "bytes": 2528,
-      "sha256": "ca1d7bdb5664e6dc7fcb15816c0db498a09e19dab95e4d7696857f0f4f94a836"
+      "bytes": 2415,
+      "sha256": "db7d8fd940220fbca2e2c8f0a1129885a60c72b33aff76410b57dd2363a5608e"
     },
     {
       "path": "data/03_results/GSE202051_author_annotated_attribution_v1/analysis_protocol.json",
-      "bytes": 169137,
-      "sha256": "ed0abd7638ac1e0faf96bf5a7222a5ec39cc5629c0a394eced1145a43eb33b2f"
+      "bytes": 160496,
+      "sha256": "fc636711f1ab9d6e1fde28fa6b6bdf847a30107f2830b85be16f45162ea8da1c"
     },
     {
       "path": "data/03_results/GSE202051_author_annotated_attribution_v1/mregDC_activated_dc_minimum_cell_sensitivity.tsv",
-      "bytes": 1192,
-      "sha256": "e287fa12183eb69c578660e01f54297cd23e369009be432e10bc0c93c2b9623e"
+      "bytes": 1189,
+      "sha256": "adb63dc448d81fa5bfed58ebee1ae69c32c739f420340184ed44aa6fefcc231f"
     },
     {
       "path": "data/03_results/GSE202051_author_annotated_attribution_v1/patient_level_primary_and_sensitivity_tests.tsv",
-      "bytes": 19219,
-      "sha256": "377ae536533856ce5ec91edf934d0660959ac5796748953495b21aaf1ee7a332"
+      "bytes": 19176,
+      "sha256": "14e06e5aa5007a5c4fb62231d6244eed39222831780d06ac6ead0857e1dc8a08"
     },
     {
       "path": "data/03_results/GSE202051_author_annotated_attribution_v1/program_scoreability_by_author_label.tsv",
-      "bytes": 368167,
-      "sha256": "8148b2dd1ddbc52ce6a7e9baf3b7772aa2b2186570b6a5762f940fca671010d5"
+      "bytes": 365202,
+      "sha256": "0462f69c4bc50ae18f413057d0a09ed54e7a94d81945a6ed0868df1bbb5e385b"
     },
     {
       "path": "data/03_results/GSE202051_author_reference_audit/gse202051_author_reference_audit.json",
-      "bytes": 11181,
-      "sha256": "bd18d5c4acacf6bb8a463b64b1d0b4dd2116380170d69df7ba9288ee679b0589"
+      "bytes": 10762,
+      "sha256": "84463c1e1da5278f7c12552255bd5883a0ca76c185f4a146a8a31552a28e416d"
     },
     {
       "path": "data/03_results/GSE277116_audit/GSE277116_geo_sample_manifest.tsv",
-      "bytes": 2288,
-      "sha256": "b6de46986020e55274946dfd16be6b17a1d1b06e08c84ad38a5c0fea995d3f5e"
+      "bytes": 2259,
+      "sha256": "5028667c643d703560f70e509dd0d72acbf871f76e0192e66be6b9f5ec2c3e57"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE278687_v3_patient_block_null_999.tsv",
-      "bytes": 278,
-      "sha256": "23d9ccbe994ca751bf15c515823c409dbec38b2025d41d22eb7b9b43d032a4b1"
+      "bytes": 276,
+      "sha256": "5e6eb55ea5a8a33c6803cb6433f9151ce7e0cabda48f5ab7db0a7360e0c71559"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/v3_combined_1000_graph_nulls.tsv",
-      "bytes": 1766,
-      "sha256": "bbeee0998cd2aed86901195353ec01b128412e8f63be9545ee363e964dba9c4a"
+      "bytes": 1763,
+      "sha256": "c96a62c02c020dc57992cb7ecb39ae4b8c766ddd9f5e4340f8f54b0b32a7abe4"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_combined_1000.tsv",
-      "bytes": 760,
-      "sha256": "137456f7f4c652ce31e42e111cd108c8ed6c7188b819b22e43ff50b7d2c26d24"
+      "bytes": 758,
+      "sha256": "97ef9a7d611e8b4c3ed1be9745dcd391b6d249e99d35f971e9223229155623d1"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_combined_1000.tsv",
-      "bytes": 763,
-      "sha256": "d90017232ed34eac14a56681e14f211ad1ab01a3bf4bf9082bda74db9d56e8c1"
+      "bytes": 761,
+      "sha256": "2180020d6eb780649eb6c45ddd9cb11a83421110cbe768c44aafeeff56c3cc68"
     },
     {
       "path": "data/03_results/unified_primary_pipeline_v2/GSE277116_v2_per_package.tsv",
-      "bytes": 8094,
-      "sha256": "b5c8276c529f8570c8143650b5e1fdba1f12f50b8a068389112418a66cfb121e"
+      "bytes": 8072,
+      "sha256": "0cf6a5731e69a04abfb2591e8e2a22769cf9d89fc0c519e452a799a52d44b0a4"
     },
     {
       "path": "data/03_results/unified_primary_pipeline_v2/GSE278687_v2_per_patient.tsv",
-      "bytes": 4235,
-      "sha256": "8e4c12ae2c7a8af28cf731c78bb03d77c06d955d02c039c3193c12e90d1b8742"
+      "bytes": 4216,
+      "sha256": "218c572b60ad1888148fa7fbe64c203770c5b6e5911ba628d5059bc139f1ac13"
     },
     {
       "path": "data/03_results/unified_primary_pipeline_v2/pipeline_manifest.json",
-      "bytes": 1618,
-      "sha256": "2c69abd7284e415878fac461440cc51812cc16a9c8df8746894ef39aafb3a5cd"
+      "bytes": 1571,
+      "sha256": "37ba6adc13bba0a6be6de7e8324e5a6e7b565b8f725d8387cc8640a84a3aaf4b"
     },
     {
       "path": "environment-v6.yml",
@@ -170,6 +180,11 @@
       "sha256": "461a0cd7442c0dc738ab0b7cbacdab5000d05d0b428590049a8a618b3c3b10a5"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1105,
+      "sha256": "9a99ad11098836ad701c696bd9968c151765a2dd918cbbdccb5a3feb036e54e8"
+    },
+    {
       "path": "manuscript/analysis_timeline_v1.md",
       "bytes": 2362,
       "sha256": "226dfbc5983c6d480b8abfa145e0b28aacacc813b820e62597733cfac59ed21d"
@@ -181,8 +196,8 @@
     },
     {
       "path": "manuscript/drafts/Manuscript_full_v7_single_cell_attribution.md",
-      "bytes": 42894,
-      "sha256": "f7d8147ac1575b6629fd7120080948beb3a508e963c5cef377f3e06a9b44b143"
+      "bytes": 42815,
+      "sha256": "a2cc415e08c026f9831d6e188abf373d215a6d8bfd2c0d649be14b972406d57b"
     },
     {
       "path": "manuscript/external_single_cell_attribution_audit_v3.md",
@@ -266,8 +281,8 @@
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Figure_S6_selection_audit.tsv",
-      "bytes": 1910,
-      "sha256": "56c11e21f0eb4285604009b8a9b7d64de07c37fc1d42875e46370d6ad358336f"
+      "bytes": 1891,
+      "sha256": "e2b52be42186186de03ec85b48e93dcfb60dfd575772bf41fbc0a19771cbdf16"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Figure_S7_conditioning_and_mask_sensitivity.pdf",
@@ -290,74 +305,64 @@
       "sha256": "52eb5160ea1f6a7d63b08e3736a64140aca09b3eb29569f91d15daf754e54e92"
     },
     {
-      "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Figure_S9_GSE202051_author_annotated_program_attribution.pdf",
-      "bytes": 33714,
-      "sha256": "4cdc6534ac33c0dd519c031709fa125ae9c56acbd0fbf1a2d88abe3248e7b82a"
-    },
-    {
-      "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Figure_S9_GSE202051_author_annotated_program_attribution.png",
-      "bytes": 316444,
-      "sha256": "cff5015815e13e3dfc5bd674ffc2ba83e2d78e3a0e93616b3eae85f3dc3cf7bf"
-    },
-    {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Methods_and_Data_Dictionary_v3.md",
-      "bytes": 9544,
-      "sha256": "f868334dc5385b73413a0bd67daa1f6b9efe5eb407b46a5cbc9c79e223c3174a"
+      "bytes": 9490,
+      "sha256": "907056853ad5660ca50baddf924ae4f736df2a0d3f620f3d0abee491be564a57"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/supplementary_pack_manifest_v7.json",
-      "bytes": 552,
-      "sha256": "2598e5bca4f927175c84ac8cfe500b472a10d5c3142010efef49889124d03df9"
+      "bytes": 545,
+      "sha256": "200833ffed829842f54c39de3bdf8c3b187b9ed4135daf02214b46e43877d836"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S10_GSE278687_block_holdout.tsv",
-      "bytes": 71646,
-      "sha256": "5b7fbb2ce593aad8504bcb684b4e96c08f88daf29feba51155cf342fefb333db"
+      "bytes": 70587,
+      "sha256": "c83e2f4a955dc367c50f69b496e98d1cae8db7a43730b55f1ff15fdc16ea05c4"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S11_GSE278687_LOPO.tsv",
-      "bytes": 567,
-      "sha256": "b153d5d56be8879de4c4400427aa7c52c70d9106aba89f5837b49cb1ec406a62"
+      "bytes": 548,
+      "sha256": "0e5710703e0e039a09f290ecfa1347da7676c8751bd686026ad9a8e3f6a735d2"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S12_GSE277116_block_holdout.tsv",
-      "bytes": 34702,
-      "sha256": "e0a4819c6c469ac3de9fcc8c12628aa02c915bcff641d4c82fae42ac75d0407f"
+      "bytes": 34115,
+      "sha256": "e4df6bc1b0302e7be70bacbe351ac4fc27a0fb4245671fda79ab218703bdcdca"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S13_GSE277116_LOSO.tsv",
-      "bytes": 587,
-      "sha256": "388cb5a6dd39bc98b1878245cb12807e8f20164c3dfa6cae72230c3e0c09d875"
+      "bytes": 568,
+      "sha256": "bcffe0a508994f221e72a2fd4755fdf27055a4865c3d2f80e6eddb7565f50f50"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S14_GSE217845_marker_gated_summary.tsv",
-      "bytes": 2585,
-      "sha256": "40bb57a0c6a29a72b95e25f148871d35bdc4a340fa1486881e8a43a6234a80dd"
+      "bytes": 2574,
+      "sha256": "dbe22ee94e369998254bbfa55bfecd5d9af2419a99de6970f0d9779082c86018"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S15_GSE217845_marker_gated_state_scores.tsv",
-      "bytes": 5842,
-      "sha256": "177741fa65acd36dbcd53e527925cfa4b6fe6e946c02a5491ab720759fa428f6"
+      "bytes": 5771,
+      "sha256": "3879fca23957528228c324371dff8c7cb9898db85d07b15c3451d99b3864b119"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S16_cohort_and_annotation_audit.tsv",
-      "bytes": 1310,
-      "sha256": "d0917b930de7a7ab5edbc0958cf4458af22ba6ce1d643e0784e929c93e1c8e45"
+      "bytes": 1303,
+      "sha256": "c533d5e7d311f633f4ac4fa823a9f36c46b4fe10a35fd4f2dc28480c95e818af"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S17_program_scoreability_by_sample.tsv",
-      "bytes": 43148,
-      "sha256": "a3b3c2d33317629faa462ef3b3b4a61eb782e15a7136be79c0185841dcdcab8e"
+      "bytes": 42796,
+      "sha256": "8322d2c947d0a76a955fce51f327e1776452aa66056c2c524d62460ce01bf2d6"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S1_programs_and_covariates.tsv",
-      "bytes": 1026,
-      "sha256": "efb582b7bafc5ef07bc306aab3e2fa4b76ce2ef77674eafdde05eac1ae80b7d8"
+      "bytes": 1014,
+      "sha256": "9adfc01895497cb03b5bcb1ed80c197f9a8a702e9ae3d2f92675238b3a0874e9"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S20_program_scoreability_summary.tsv",
-      "bytes": 1446,
-      "sha256": "79cd5ae83f5f6978c5206a51d16e46d553b85b0540dfa809e682457d9a1aea07"
+      "bytes": 1427,
+      "sha256": "91ab136ef954885b5b63e53f2000392996ed4ed767e4b8439f5f78e56473ea86"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S21_GEO_accession_audit.tsv",
@@ -366,98 +371,83 @@
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S22_scoreability_threshold_sensitivity.tsv",
-      "bytes": 1968,
-      "sha256": "92f3cb0ba73a1791cc31df1285419f57ca0a550b3628ea63a845577ae746cc16"
+      "bytes": 1959,
+      "sha256": "f7933df3f3577874abaed7437dff9b2b6036e1ade155a7b897549548816d95e3"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S23_scoreability_units.tsv",
-      "bytes": 4642,
-      "sha256": "864af15551563d6a6e688eb015ef5970b1141ba960404f3711ebcec694cc81fd"
+      "bytes": 4605,
+      "sha256": "6ec3963721ede3e72531bea5e6a92e97bacd957e83826ac4266c38dd017c662c"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S24_GSE278687_mask_moran_graph_sensitivity.tsv",
-      "bytes": 763,
-      "sha256": "d90017232ed34eac14a56681e14f211ad1ab01a3bf4bf9082bda74db9d56e8c1"
+      "bytes": 761,
+      "sha256": "2180020d6eb780649eb6c45ddd9cb11a83421110cbe768c44aafeeff56c3cc68"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S25_GSE277116_mask_moran_graph_sensitivity.tsv",
-      "bytes": 760,
-      "sha256": "137456f7f4c652ce31e42e111cd108c8ed6c7188b819b22e43ff50b7d2c26d24"
-    },
-    {
-      "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S26_conditional_mask_and_neighbourhood_sensitivity.tsv",
-      "bytes": 6278,
-      "sha256": "b03dfe86bc367cd743819f062b359f3c98550c39d27f68404801b87e13c84e1e"
+      "bytes": 758,
+      "sha256": "97ef9a7d611e8b4c3ed1be9745dcd391b6d249e99d35f971e9223229155623d1"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S27_raw_coordinate_neighbour_distances.tsv",
-      "bytes": 18550,
-      "sha256": "c827412e149606f342e1c6225091d696c7423be25db6e1b31ac1cdb09f84226c"
+      "bytes": 18432,
+      "sha256": "88730e966ea780e1e4e56630f0439ce2f2b133523cdcc7a3e5ecfa8d760c2865"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S28_joint_model_VIF_summary.tsv",
-      "bytes": 1463,
-      "sha256": "fd104dd9eaabe2e53ee03d8bdca894e33850c8de6a8d012c01bb471df3957364"
+      "bytes": 1448,
+      "sha256": "a7d3c81d3c3177381d08147bede75e8addc5a6856b6c1a0eeebb204108bc9ec4"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S29_per_section_joint_model_VIF.tsv",
-      "bytes": 25441,
-      "sha256": "5c2bb02e38d925a5e7ec0d0089b5a9b34636abd4cb9a4826e12131d68e7a7e29"
+      "bytes": 25167,
+      "sha256": "3f0cc393b22d9d7396cb3f38c30f1db5d3dba4097e108af1a5c2046e530eb6cc"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S2_GSE278687_section_results.tsv",
-      "bytes": 7511,
-      "sha256": "9faaef2d9414698da608b840965391f413ddf77b73c745894741de633fe88220"
+      "bytes": 7489,
+      "sha256": "dacf65b5ec58d23abfaffa05999fc0d2cd153d814a2f83c9cc1701ba8d4f195f"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S30_GSE202051_author_annotation_crosswalk.tsv",
-      "bytes": 1120,
-      "sha256": "498fb27ed72bc76dee7d7606f4b8b1fa3dfec053ded2c7b8350f626bea7818fe"
+      "bytes": 1080,
+      "sha256": "a05d1b5e9bdb17d8fe00651a36a06ae28cb1cc5d2c39cf36a5f043aaf1c3a0f2"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S31_GSE202051_patient_level_program_tests.tsv",
-      "bytes": 19219,
-      "sha256": "377ae536533856ce5ec91edf934d0660959ac5796748953495b21aaf1ee7a332"
-    },
-    {
-      "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S32_GSE202051_program_scoreability_by_author_label.tsv",
-      "bytes": 368167,
-      "sha256": "8148b2dd1ddbc52ce6a7e9baf3b7772aa2b2186570b6a5762f940fca671010d5"
-    },
-    {
-      "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S33_GSE202051_activated_DC_minimum_cell_sensitivity.tsv",
-      "bytes": 1192,
-      "sha256": "e287fa12183eb69c578660e01f54297cd23e369009be432e10bc0c93c2b9623e"
+      "bytes": 19176,
+      "sha256": "14e06e5aa5007a5c4fb62231d6244eed39222831780d06ac6ead0857e1dc8a08"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S3_GSE278687_patient_results.tsv",
-      "bytes": 4235,
-      "sha256": "8e4c12ae2c7a8af28cf731c78bb03d77c06d955d02c039c3193c12e90d1b8742"
+      "bytes": 4216,
+      "sha256": "218c572b60ad1888148fa7fbe64c203770c5b6e5911ba628d5059bc139f1ac13"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S4_GSE277116_package_results.tsv",
-      "bytes": 8094,
-      "sha256": "b5c8276c529f8570c8143650b5e1fdba1f12f50b8a068389112418a66cfb121e"
+      "bytes": 8072,
+      "sha256": "0cf6a5731e69a04abfb2591e8e2a22769cf9d89fc0c519e452a799a52d44b0a4"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S5_endpoint_summaries.tsv",
-      "bytes": 1509,
-      "sha256": "361ddc1d25e79e2b19692dbe791fb09a260565eb62e18fe732e46c570958e272"
+      "bytes": 1498,
+      "sha256": "50350a586c8eff4ee0de81d258663317e161cf86ef96052c1fa3c4d65bfb67ce"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S6_GSE277116_endpoint_summaries.tsv",
-      "bytes": 6014,
-      "sha256": "3c0ade04dcfd03343d34f064363cfbf67805b277290da5cf2cc0f355afe189d5"
+      "bytes": 5973,
+      "sha256": "501bc74e872b8194b5314e622a1aa41d164ecfaad75a04e0a3ee3658cab88564"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S7_GSE278687_block_null_999.tsv",
-      "bytes": 278,
-      "sha256": "23d9ccbe994ca751bf15c515823c409dbec38b2025d41d22eb7b9b43d032a4b1"
+      "bytes": 276,
+      "sha256": "5e6eb55ea5a8a33c6803cb6433f9151ce7e0cabda48f5ab7db0a7360e0c71559"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S8_S9_global_moran_graph_nulls_1000.tsv",
-      "bytes": 1766,
-      "sha256": "bbeee0998cd2aed86901195353ec01b128412e8f63be9545ee363e964dba9c4a"
+      "bytes": 1763,
+      "sha256": "c96a62c02c020dc57992cb7ecb39ae4b8c766ddd9f5e4340f8f54b0b32a7abe4"
     },
     {
       "path": "manuscript/tables/Supplementary_Table_S21_GEO_accession_audit_v1.tsv",
@@ -466,13 +456,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 4915,
-      "sha256": "23e6ae152c1f50a862e66d600ecb6bc3b03b00ea24fa0d1bffb75dd35f12c0a5"
+      "bytes": 5211,
+      "sha256": "882bda41c7419c535cf1a6fe1b968faa918851145c9ca9af7316e92e86723162"
     },
     {
       "path": "RELEASE_CHECKLIST_v7.md",
       "bytes": 1163,
       "sha256": "8cbc28517695d0346037f60b700e1bb035e30943d24c69a5cc69288d513a4e75"
+    },
+    {
+      "path": "RELEASE_NOTES_v1.0.1.md",
+      "bytes": 651,
+      "sha256": "a7c8ca75d8e23461dafbd3d233a128d5c95321c14e14235d220a5526eb47b785"
     },
     {
       "path": "RELEASE_TO_GITHUB_AND_ZENODO.md",
@@ -510,131 +505,6 @@
       "sha256": "ccb3d1cb67ae74b6c33bc63cf5cd603f9cf57382763930fc32cff036659d5a7e"
     },
     {
-      "path": "scripts/__pycache__/assemble_submission_supplements_v7.cpython-312.pyc",
-      "bytes": 3933,
-      "sha256": "735c0ebe639f64135d2a2d3234ea65db5e5732cd60f10e1cb6e307ffdcde4948"
-    },
-    {
-      "path": "scripts/__pycache__/audit_gse202051_author_reference.cpython-312.pyc",
-      "bytes": 9686,
-      "sha256": "94476b2c43aecabd916c954c7345f9fd9caf308527c79acdd5626ebfa95f5186"
-    },
-    {
-      "path": "scripts/__pycache__/build_manuscript_docx_v5.cpython-312.pyc",
-      "bytes": 19943,
-      "sha256": "740135c227870d479aa83ececd17895e3f749f14371d2e5fb9a707fd9f64b474"
-    },
-    {
-      "path": "scripts/__pycache__/build_manuscript_docx_v7.cpython-312.pyc",
-      "bytes": 9159,
-      "sha256": "a1ee39f51e0153b009d8b8bd4729a6939d9d373e41032ddd0d4e6ae898ebdf4d"
-    },
-    {
-      "path": "scripts/__pycache__/build_release_manifest.cpython-312.pyc",
-      "bytes": 3670,
-      "sha256": "c0596697f23fdfb0592edc904967443063b0770db9af077bbbd25fedf8085a5c"
-    },
-    {
-      "path": "scripts/__pycache__/build_release_manifest_v7.cpython-312.pyc",
-      "bytes": 9027,
-      "sha256": "4cd2cdc3c73782f5e097d715fa91cca24bf28fade4d23586e8d54955450de1c6"
-    },
-    {
-      "path": "scripts/__pycache__/combine_mask_moran_batches_v4.cpython-312.pyc",
-      "bytes": 5523,
-      "sha256": "ca2937eee0be9fceed5b3961bb31396d9d617933ca202bbe73a6610eb6a74d64"
-    },
-    {
-      "path": "scripts/__pycache__/combine_spatial_null_batches_v3.cpython-312.pyc",
-      "bytes": 6001,
-      "sha256": "cf32786360d664d46ebe9fe61b530d1ce1fa3d2a4112cfab41f83ac47ad01c37"
-    },
-    {
-      "path": "scripts/__pycache__/fetch_public_inputs.cpython-312.pyc",
-      "bytes": 7961,
-      "sha256": "7a26c30136d1c40844fb018123f522949c1dcfee01bd4429d9ed69d7856f7c50"
-    },
-    {
-      "path": "scripts/__pycache__/generate_conditional_scale_figures_v7.cpython-312.pyc",
-      "bytes": 18929,
-      "sha256": "655b274944ca9623c81d51b4341c40b55125ee876a3de855dd5f9c580e5f1c1f"
-    },
-    {
-      "path": "scripts/__pycache__/generate_holdout_figure_v1.cpython-312.pyc",
-      "bytes": 6303,
-      "sha256": "5fcd219b9289c16b4341bce6057d32af0701ce79da5f769bf325ecc699eb3846"
-    },
-    {
-      "path": "scripts/__pycache__/generate_main_figures_v4.cpython-312.pyc",
-      "bytes": 15895,
-      "sha256": "c451e862494767b1504566440aa2509fcd87adf97338a5f8ff83e96993117487"
-    },
-    {
-      "path": "scripts/__pycache__/generate_spatial_and_supplementary_figures_v6.cpython-312.pyc",
-      "bytes": 20801,
-      "sha256": "a73dbe9ac92fd86b1c532dc3f6a35ba59e32f8b7e95d2e5db2f70855249e3733"
-    },
-    {
-      "path": "scripts/__pycache__/qc_gse277116_full_packages.cpython-312.pyc",
-      "bytes": 31454,
-      "sha256": "d9709ddadb23ac12aeac944f2e9474169aaffc278ac6600248b32d9212e7f133"
-    },
-    {
-      "path": "scripts/__pycache__/run_conditional_scale_joint_sensitivities_v7.cpython-312.pyc",
-      "bytes": 18988,
-      "sha256": "202703f7adbd1cc5d20dcb294aea2514e7fedbea284cf8e3c7b18601ecadd93a"
-    },
-    {
-      "path": "scripts/__pycache__/run_gse202051_author_annotated_attribution.cpython-312.pyc",
-      "bytes": 31306,
-      "sha256": "47ba290b9ca47b6a80b84fd86dc5526765cf9d3b28d1b392fc174d57ba7aa713"
-    },
-    {
-      "path": "scripts/__pycache__/run_gse217845_marker_gated_single_cell_validation.cpython-312.pyc",
-      "bytes": 13819,
-      "sha256": "219ad362ff47a429424e818ad1f72861ccd8f79bef9b90800644735961d8321e"
-    },
-    {
-      "path": "scripts/__pycache__/run_gse278687_block_null_v3_999.cpython-312.pyc",
-      "bytes": 4277,
-      "sha256": "225a70c1d9c52d3fa829072fbb16dd14b6de2cd3f9b71bb7fbf1e9ea18524328"
-    },
-    {
-      "path": "scripts/__pycache__/run_mask_moran_sensitivity_v4.cpython-312.pyc",
-      "bytes": 19734,
-      "sha256": "35b158d665da4098a53acf3ae003b5e0dbe2b13a55db504c1ba51a926e36b670"
-    },
-    {
-      "path": "scripts/__pycache__/run_scoreability_threshold_sensitivity_v4.cpython-312.pyc",
-      "bytes": 9004,
-      "sha256": "400602e1ec044971f5a0f3e2670d5ae296b7749c2dea61d737f3f43c3a2bc95e"
-    },
-    {
-      "path": "scripts/__pycache__/run_spatial_holdout_validation.cpython-312.pyc",
-      "bytes": 16582,
-      "sha256": "94c20d98a848d85f5f2885dc6aed4ce09cb6a88b3933e597d90bca6c4ac871bc"
-    },
-    {
-      "path": "scripts/__pycache__/run_spatial_nulls_v3_999.cpython-312.pyc",
-      "bytes": 19124,
-      "sha256": "8325f8bb6da6d66d245967ee59d673edea194f2ee99be7ce44aaf548bccb560e"
-    },
-    {
-      "path": "scripts/__pycache__/run_unified_primary_pipeline_v2.cpython-312.pyc",
-      "bytes": 44877,
-      "sha256": "22157eac83a97eba123c369ef902befecbd1df9b21c5e5c7b1df7aaaafe9246b"
-    },
-    {
-      "path": "scripts/__pycache__/verify_release.cpython-312.pyc",
-      "bytes": 4297,
-      "sha256": "02ee9fb447a08c370998ecb770217aabc33e3d0d66fc0caf7eff4bf7237c95c4"
-    },
-    {
-      "path": "scripts/__pycache__/verify_release_v7.cpython-312.pyc",
-      "bytes": 4952,
-      "sha256": "6e1c90f2650b6badf747e91bb8d97a9527e9f358e50c9a3cd1e17250859ffbff"
-    },
-    {
       "path": "scripts/assemble_submission_supplements_v7.py",
       "bytes": 3199,
       "sha256": "7ac2f57a2bd67bdc5c666677e074435ddb86797db2085179e2f257fa21a70746"
@@ -656,8 +526,8 @@
     },
     {
       "path": "scripts/build_release_manifest.py",
-      "bytes": 1742,
-      "sha256": "06ed549e5492c035bd09b7fbe4635ea57bcbcc78c87e169f3ea7ae9e92fcf32c"
+      "bytes": 2199,
+      "sha256": "b4aee2ab96aee383d4f75ff8448771d77ddad038d7f7d973168a5a26ab1507b2"
     },
     {
       "path": "scripts/build_release_manifest_v7.py",
@@ -761,13 +631,18 @@
     },
     {
       "path": "scripts/verify_release.py",
-      "bytes": 2487,
-      "sha256": "1218ee732c31c4826b2a75a8dcf8cbcdd82f1dc68e4f106875b0d04b58fce583"
+      "bytes": 2884,
+      "sha256": "c55b951c419645555f851d61237cc82ba9c46ac90a857c533c28a2b121abb586"
     },
     {
       "path": "scripts/verify_release_v7.py",
       "bytes": 3310,
       "sha256": "329533c11f8ba591d9fc1e515e8d31a8642d1b3911ee8dcbbdf5431679de6e7d"
+    },
+    {
+      "path": "zenodo.json",
+      "bytes": 1651,
+      "sha256": "8c00b8215c012e207d5a771a6954a5a3b42b49a3c1524aad1431d4f6420820b2"
     },
     {
       "path": "zenodo.json.template",
