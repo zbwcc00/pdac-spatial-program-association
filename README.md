@@ -94,19 +94,15 @@ the presence of the four local GEO inputs; it also verifies the published
 GSE202051 SHA-256. The GitHub Action performs syntax and input-registry checks
 only; it intentionally does not download public data or rerun analyses.
 
+## Public synchronized release
+
+The latest published archive is [Zenodo v1.0.1](https://doi.org/10.5281/zenodo.21953739); the stable Zenodo concept DOI [10.5281/zenodo.21951887](https://doi.org/10.5281/zenodo.21951887) resolves to that latest published version. Release v1.0.2 is prepared locally but is **not yet published**. Do not cite v1.0.2 or state that the concept DOI contains it until the GitHub v1.0.2 release has been archived by Zenodo. The v1.0.2 package is intended to contain the submission manuscript, final supplementary methods/data dictionary, supplementary-pack manifest, public reproducibility documentation, and the SHA-256 release manifest.
+
 ## Publication metadata
 
-Version 1.0.0 is archived at Zenodo with the version-specific DOI
-[`10.5281/zenodo.21951888`](https://doi.org/10.5281/zenodo.21951888).
-Version 1.0.1 is an integrity-only corrective release: it regenerates the
-public release manifest from LF-normalized, source-controlled files and
-excludes interpreter caches. It does not change analyses, derived results,
-figures, or scientific claims.
-
-Before a future external release, complete
-`AUTHORS_LICENSE_AND_RELEASE_REQUIRED.md`, replace `CITATION.cff.template` and
-`zenodo.json.template` with final metadata, create and push a tagged GitHub
-release, then archive that tag in Zenodo.
+`LICENSE`, `CITATION.cff`, and `zenodo.json` hold the release metadata. Create
+and push a tagged GitHub release, then archive that tag in Zenodo. Do not
+insert a DOI into the manuscript until Zenodo has returned it.
 
 ## Data and citation
 

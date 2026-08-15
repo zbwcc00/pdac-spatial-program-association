@@ -1,29 +1,29 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "PDAC spatial program association"
-version: "1.0.1"
-date-released: 2026-08-15
+title: "Local association of mregDC-like and T-cell/lymphoid transcriptional programs in PDAC"
+version: "1.0.2"
+date-released: "2026-08-16"
 url: "https://github.com/zbwcc00/pdac-spatial-program-association"
 repository-code: "https://github.com/zbwcc00/pdac-spatial-program-association"
-license: MIT
+license: "MIT"
 authors:
-  - family-names: Zheng
-    given-names: Bowen
-    email: 13803722355@163.com
-    orcid: https://orcid.org/0009-0006-8304-7905
+  - family-names: "Zheng"
+    given-names: "Bowen"
+    email: "13803722355@163.com"
     affiliation: "Division of Hepatobiliary Pancreatic Surgery, The Affiliated Hospital of Yanbian University, Yanji 133000, China"
-  - family-names: Sun
-    given-names: Yuqiao
-    email: Syq199207050016@163.com
-    orcid: https://orcid.org/0009-0004-8652-1452
+    orcid: "https://orcid.org/0009-0006-8304-7905"
+  - family-names: "Sun"
+    given-names: "Yuqiao"
+    email: "Syq199207050016@163.com"
     affiliation: "Division of Hepatobiliary Pancreatic Surgery, The Affiliated Hospital of Yanbian University, Yanji 133000, China"
-  - family-names: Chi
-    given-names: Jinyuan
-    email: chj19970114@126.com
-    orcid: https://orcid.org/0009-0002-8237-0672
+    orcid: "https://orcid.org/0009-0004-8652-1452"
+  - family-names: "Chi"
+    given-names: "Jinyuan"
+    email: "chj19970114@126.com"
     affiliation: "Division of Hepatobiliary Pancreatic Surgery, The Affiliated Hospital of Yanbian University, Yanji 133000, China"
-  - family-names: Li
-    given-names: Hao
-    email: lih@ybu.edu.cn
-    orcid: https://orcid.org/0009-0007-7394-1273
+    orcid: "https://orcid.org/0009-0002-8237-0672"
+  - family-names: "Li"
+    given-names: "Hao"
+    email: "lih@ybu.edu.cn"
     affiliation: "Division of Hepatobiliary Pancreatic Surgery, The Affiliated Hospital of Yanbian University, Yanji 133000, China"
+    orcid: "https://orcid.org/0009-0007-7394-1273"
