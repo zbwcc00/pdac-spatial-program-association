@@ -1,0 +1,43 @@
+{
+  "title": "PDAC spatial program association",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "description": "Code, derived results, figures, and manuscript sources for a public-data study of a specified local association between mregDC-like and T-cell/lymphoid transcriptional programs in pancreatic ductal adenocarcinoma. Raw GEO data are not redistributed.",
+  "creators": [
+    {
+      "name": "Zheng, Bowen",
+      "affiliation": "Division of Hepatobiliary Pancreatic Surgery, The Affiliated Hospital of Yanbian University, Yanji 133000, China",
+      "orcid": "0009-0006-8304-7905"
+    },
+    {
+      "name": "Sun, Yuqiao",
+      "affiliation": "Division of Hepatobiliary Pancreatic Surgery, The Affiliated Hospital of Yanbian University, Yanji 133000, China",
+      "orcid": "0009-0004-8652-1452"
+    },
+    {
+      "name": "Chi, Jinyuan",
+      "affiliation": "Division of Hepatobiliary Pancreatic Surgery, The Affiliated Hospital of Yanbian University, Yanji 133000, China",
+      "orcid": "0009-0002-8237-0672"
+    },
+    {
+      "name": "Li, Hao",
+      "affiliation": "Division of Hepatobiliary Pancreatic Surgery, The Affiliated Hospital of Yanbian University, Yanji 133000, China",
+      "orcid": "0009-0007-7394-1273"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "pancreatic ductal adenocarcinoma",
+    "spatial transcriptomics",
+    "mregDC-like program",
+    "T-cell program",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/zbwcc00/pdac-spatial-program-association",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}
