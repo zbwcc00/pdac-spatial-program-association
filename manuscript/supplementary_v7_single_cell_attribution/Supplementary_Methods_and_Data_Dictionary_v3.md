@@ -1,4 +1,4 @@
-# Supplementary methods and data dictionary (v7, single-cell attribution update)
+# Supplementary methods and data dictionary (v7; release v1.0.3 prepared for publication)
 
 ## Monte Carlo reporting
 
@@ -67,3 +67,7 @@ The primary adjusted mean-DC-core-mask correlation is summarized for k=4, 6, and
 ### Supplementary Figure S9. Fixed-program attribution in an independent author-annotated PDAC single-cell reference (GSE202051).
 
 Author-provided cell labels were used without relabelling. Each point is a within-patient median score for an author label, not an individual cell. The mregDC-like score is preferentially higher in activated DCs than cDC2, cDC1, pDC, and macrophage states, and this direction persists after `CCL19` deletion. The operational Tfh-like score is distributed across broad T-cell states; the reference contains no author-defined Tfh label. This is program-attribution and non-specificity QC, not validation of spatial proximity, a cell-cell interaction, TLS morphology, or mechanism.
+
+## Public reproducibility release
+
+The latest published archive is Zenodo v1.0.2 (https://doi.org/10.5281/zenodo.21957518); its stable concept DOI is https://doi.org/10.5281/zenodo.21951887. Release v1.0.3 must be published to GitHub and archived by Zenodo before this document or the manuscript claims it as public. The prepared v1.0.3 package restores the synchronized files at their documented repository paths and contains the submission manuscript, this supplementary methods/data dictionary, `supplementary_pack_manifest_v7.json`, public reproducibility documentation, and `release_manifest.json`; raw GEO archives are not redistributed. The release manifest records SHA-256 values for public files.
