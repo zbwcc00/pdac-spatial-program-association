@@ -76,7 +76,11 @@ def title(doc):
     p=doc.add_paragraph(); p.alignment=WD_ALIGN_PARAGRAPH.CENTER; p.paragraph_format.space_before=Pt(10); p.paragraph_format.space_after=Pt(6)
     font(p.add_run("Local association of mregDC-like and T-cell/lymphoid transcriptional programs in PDAC under specified spatial scoring definitions"),20,RGBColor(24,52,77),bold=True)
     p=doc.add_paragraph(); p.alignment=WD_ALIGN_PARAGRAPH.CENTER; p.paragraph_format.space_after=Pt(13); font(p.add_run("v5 manuscript with extended spatial-null inference and scoreability audit"),10.5,MUTED,italic=True)
-    for lab,val in (("Authors","[Author names to be inserted]"),("Affiliations","[Affiliations to be inserted]"),("Corresponding author","[Name and contact details to be inserted]")):
+    for lab,val in (
+        ("Authors", "Bowen Zheng, Yuqiao Sun, Jinyuan Chi, Hao Li*"),
+        ("Affiliations", "Division of Hepatobiliary Pancreatic Surgery, The Affiliated Hospital of Yanbian University, Yanji 133000, China"),
+        ("Corresponding author", "Hao Li, lih@ybu.edu.cn"),
+    ):
         p=doc.add_paragraph(); p.paragraph_format.space_after=Pt(2); font(p.add_run(lab+": "),10,DARK,bold=True); font(p.add_run(val),10,MUTED)
 
 def add_table(doc, label, heads, rows, widths):
