@@ -68,7 +68,7 @@ def configure(doc):
     for name,size,before,after in (("Heading 1",16,18,10),("Heading 2",13,14,7)):
         s=doc.styles[name]; s.font.name="Calibri"; s.font.size=Pt(size); s.font.bold=True; s.font.color.rgb=BLUE; s.paragraph_format.space_before=Pt(before); s.paragraph_format.space_after=Pt(after); s.paragraph_format.keep_with_next=True
     cap=doc.styles["Caption"]; cap.font.name="Calibri"; cap.font.size=Pt(9.5); cap.font.italic=True; cap.font.color.rgb=MUTED; cap.paragraph_format.space_before=Pt(4); cap.paragraph_format.space_after=Pt(10)
-    p=sec.header.paragraphs[0]; p.alignment=WD_ALIGN_PARAGRAPH.RIGHT; font(p.add_run("PDAC local immune-program organization | v5 author-review manuscript"),8.5,MUTED,italic=True)
+    p=sec.header.paragraphs[0]; p.text=""; p.alignment=WD_ALIGN_PARAGRAPH.RIGHT
     p=sec.footer.paragraphs[0]; p.alignment=WD_ALIGN_PARAGRAPH.CENTER; font(p.add_run("Page "),9,MUTED)
     run=p.add_run(); b=OxmlElement("w:fldChar"); b.set(qn("w:fldCharType"),"begin"); i=OxmlElement("w:instrText"); i.set(qn("xml:space"),"preserve"); i.text=" PAGE "; e=OxmlElement("w:fldChar"); e.set(qn("w:fldCharType"),"end"); run._r.extend([b,i,e]); font(run,9,MUTED)
 
@@ -87,13 +87,13 @@ def add_table(doc, label, heads, rows, widths):
     p=doc.add_paragraph(); p.paragraph_format.space_before=Pt(10); p.paragraph_format.space_after=Pt(4); font(p.add_run(label),10.5,DARK,bold=True)
     t=doc.add_table(rows=1,cols=len(heads)); t.style="Table Grid"
     for j, head in enumerate(heads):
-        c=t.rows[0].cells[j]; c.text=head; shade(c); margins(c); c.vertical_alignment=WD_CELL_VERTICAL_ALIGNMENT.CENTER
+        c=t.rows[0].cells[j]; c.text=head; c.paragraphs[0].alignment=WD_ALIGN_PARAGRAPH.LEFT; shade(c); margins(c); c.vertical_alignment=WD_CELL_VERTICAL_ALIGNMENT.CENTER
         for r in c.paragraphs[0].runs: font(r,8.4,DARK,bold=True)
     mark_header(t.rows[0])
     for row in rows:
         cells=t.add_row().cells
         for j,value in enumerate(row):
-            cells[j].text=str(value); margins(cells[j]); cells[j].vertical_alignment=WD_CELL_VERTICAL_ALIGNMENT.CENTER
+            cells[j].text=str(value); cells[j].paragraphs[0].alignment=WD_ALIGN_PARAGRAPH.LEFT; margins(cells[j]); cells[j].vertical_alignment=WD_CELL_VERTICAL_ALIGNMENT.CENTER
             for r in cells[j].paragraphs[0].runs: font(r,8.2,INK)
     table_geometry(t,widths)
 
@@ -140,8 +140,8 @@ def build():
         ["Mask Moran audit","Median absolute mismatch 0.035; max 0.055","Median 0.027; max 0.048","Audit only, not calibration"],
         ["Primary-score zero fractions","mregDC 0.277; Tfh 0.140","mregDC 0.538; Tfh 0.529","Spot-level programs, not abundance"],
     ],[2150,2400,2400,2410])
-    blocks=re.findall(r"### Figure (?:\d+|S1)\..*?(?=\n### Figure |\Z)",legends,flags=re.S)
-    clean=[re.sub(r"\s+"," ",x.strip()) for x in blocks[:5]]
+    blocks=re.findall(r"### Figure \d+\..*?(?=\n### Figure |\Z)",legends,flags=re.S)
+    clean=[re.sub(r"^###\s*", "", re.sub(r"\s+"," ",x.strip())) for x in blocks[:5]]
     figures(doc,clean)
     doc.save(OUTPUT); print(OUTPUT)
 

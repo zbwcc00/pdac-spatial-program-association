@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 PROJECT = Path(__file__).resolve().parents[1]
-MANIFEST = PROJECT / "local_release_manifest_v7.json"
+MANIFEST = PROJECT / "verification_manifest_v7.json"
 REPORT = PROJECT / "release_verification_v7.json"
 
 

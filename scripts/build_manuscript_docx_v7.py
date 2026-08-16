@@ -39,23 +39,18 @@ module.build()
 doc = Document(module.OUTPUT)
 for section in doc.sections:
     header = section.header.paragraphs[0]
-    header.text = "PDAC local score-field association | v7 author-review manuscript"
+    header.text = ""
     header.alignment = module.WD_ALIGN_PARAGRAPH.RIGHT
-    for run in header.runs:
-        module.font(run, 8.5, module.MUTED, italic=True)
 for paragraph in doc.paragraphs:
     if paragraph.text.startswith("v5 manuscript with extended spatial-null inference"):
-        paragraph.text = "v7 manuscript with spatial sensitivities and author-annotated single-cell attribution QC"
-        for run in paragraph.runs:
-            module.font(run, 10.5, module.MUTED, italic=True)
+        paragraph._element.getparent().remove(paragraph._element)
+        continue
     if paragraph.text.startswith(("A reproducible local spatial association of mregDC-like", "Local association of mregDC-like and T-cell/lymphoid transcriptional programs in PDAC under")):
         paragraph.text = "Local association of mregDC-like and T-cell/lymphoid transcriptional programs in pancreatic ductal adenocarcinoma"
         for run in paragraph.runs:
             module.font(run, 20, module.BLUE, bold=True)
     if paragraph.text == "PDAC local immune-program organization | v5 author-review manuscript":
-        paragraph.text = "PDAC local score-field association | v7 author-review manuscript"
-        for run in paragraph.runs:
-            module.font(run, 8.5, module.MUTED, italic=True)
+        paragraph.text = ""
 
 table = doc.tables[2]
 headers = ["Check", "GSE278687", "GSE277116", "Methodological boundary"]
@@ -68,6 +63,7 @@ rows = [
 for row, values in zip(table.rows, [headers, *rows]):
     for cell, value in zip(row.cells, values):
         cell.text = value
+        cell.paragraphs[0].alignment = module.WD_ALIGN_PARAGRAPH.LEFT
         module.margins(cell)
         cell.vertical_alignment = module.WD_CELL_VERTICAL_ALIGNMENT.CENTER
         for run in cell.paragraphs[0].runs:

@@ -1,4 +1,4 @@
-"""Create the local, content-addressed v7 pre-publication release manifest."""
+"""Create a local verification manifest for the public v7 source-and-results release."""
 from __future__ import annotations
 
 import hashlib
@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 PROJECT = Path(__file__).resolve().parents[1]
-OUTPUT = PROJECT / "local_release_manifest_v7.json"
+OUTPUT = PROJECT / "verification_manifest_v7.json"
 
 
 def sha256(path: Path) -> str:
@@ -110,11 +110,11 @@ def main() -> None:
         "manifest_schema": "local-content-addressed-pdac-spatial-release-v7",
         "created_utc": datetime.now(timezone.utc).isoformat(),
         "release_status": {
-            "state": "local pre-publication record; not externally published",
-            "github_repository": None,
-            "github_release_tag": None,
-            "zenodo_doi": None,
-            "publication_authorization": "not granted",
+            "state": "local verification record supporting the public v1.0.5 source-and-results release; raw input archives remain local",
+            "github_repository": "https://github.com/zbwcc00/pdac-spatial-program-association",
+            "github_release_tag": "v1.0.5",
+            "zenodo_concept_doi": "https://doi.org/10.5281/zenodo.21951887",
+            "publication_authorization": "public source-and-results release",
         },
         "primary_endpoint": {
             "definition": "composition-adjusted focal-spot-excluded six-nearest-neighbour local mregDC-like--Tfh-like Pearson correlation among DC-core-above-within-section-mean spots",

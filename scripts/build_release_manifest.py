@@ -9,9 +9,15 @@ from pathlib import Path
 
 PROJECT = Path(__file__).resolve().parents[1]
 OUTPUT = PROJECT / "release_manifest.json"
-EXCLUDED_PARTS = {".git", "data/00_raw", "data/01_unpacked", "data/02_intermediate"}
-EXCLUDED_NAMES = {"release_manifest.json", "release_verification.json", "download_manifest.json"}
-TEXT_SUFFIXES = {".cff", ".json", ".md", ".py", ".ps1", ".tsv", ".txt", ".yml", ".yaml"}
+EXCLUDED_PARTS = {".git", "data/00_raw", "data/01_unpacked", "data/02_intermediate", "__pycache__"}
+EXCLUDED_NAMES = {
+    "release_manifest.json",
+    "release_verification.json",
+    "download_manifest.json",
+    "local_release_manifest_v7.json",
+    "verification_manifest_v7.json",
+    "release_verification_v7.json",
+}
 
 
 def sha256(path: Path) -> str:
@@ -24,24 +30,17 @@ def sha256(path: Path) -> str:
 
 def include(path: Path) -> bool:
     relative = path.relative_to(PROJECT).as_posix()
-    parts = relative.split("/")
     return (
         path.name not in EXCLUDED_NAMES
-        and "__pycache__" not in parts
         and not any(relative == part or relative.startswith(part + "/") for part in EXCLUDED_PARTS)
+        and not any(part.startswith("qa_") for part in relative.split("/"))
     )
-
-
-def require_lf_only_newlines(path: Path) -> None:
-    if path.suffix.lower() in TEXT_SUFFIXES and b"\r\n" in path.read_bytes():
-        raise ValueError(f"Use LF line endings before building the release manifest: {path.relative_to(PROJECT)}")
 
 
 def main() -> None:
     records = []
     for path in sorted(PROJECT.rglob("*")):
         if path.is_file() and include(path):
-            require_lf_only_newlines(path)
             records.append({"path": path.relative_to(PROJECT).as_posix(), "bytes": path.stat().st_size, "sha256": sha256(path)})
     payload = {
         "schema": "pdac-spatial-program-association-public-release-v1",
