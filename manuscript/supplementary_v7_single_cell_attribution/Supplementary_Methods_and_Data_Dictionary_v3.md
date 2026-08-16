@@ -1,4 +1,10 @@
-# Supplementary methods and data dictionary (v7; release v1.0.3 prepared for publication)
+# Supplementary methods and data dictionary (v7; public release v1.0.5)
+
+## Spatial scoring and covariates
+
+For both spatial cohorts, scores use the archived raw feature-by-spot count matrix. Gene symbols are matched case-insensitively; counts for listed genes present in the matrix are summed within each spot and `log1p` is applied to that sum. No per-spot total-count normalization or detected-gene-count covariate is applied. `log1p` total library size is included as a residualization covariate. Missing genes are omitted, and a score is zero when no listed genes are present; Supplementary Table S17 reports gene coverage and score-zero fractions. Supplementary Table S1 gives all frozen programs and covariates, including the epithelial proxy (`KRT8`, `KRT18`, `KRT19`, `EPCAM`, `KRT7`, `MUC1`, `CEACAM6`, `KRT17`) and stromal proxy (`COL1A1`, `COL1A2`, `COL3A1`, `DCN`, `LUM`, `COL6A1`, `COL6A2`, `SPARC`, `TAGLN`). Covariates are standardized within section for residualization; residual scores are standardized before local-field calculation.
+
+The array-block null and the leakage-aware holdout assign each in-tissue spot to `(floor(array_row/8), floor(array_col/8))`. The 8 x 8 block size was fixed in the v2 operational pipeline. No separate block-size sensitivity was performed; this is a limitation. Neighbourhood-size sensitivity is reported separately for k=4/6/12 in Supplementary Table S26 and Figure S8.
 
 ## Monte Carlo reporting
 
@@ -70,4 +76,4 @@ Author-provided cell labels were used without relabelling. Each point is a withi
 
 ## Public reproducibility release
 
-The public reproducibility archive is available through the stable Zenodo concept DOI https://doi.org/10.5281/zenodo.21951887 and GitHub release v1.0.4 (https://github.com/zbwcc00/pdac-spatial-program-association/releases/tag/v1.0.4). The synchronized v1.0.4 package contains the submission manuscript, this supplementary methods/data dictionary, `supplementary_pack_manifest_v7.json`, public reproducibility documentation, and `release_manifest.json`; raw GEO archives are not redistributed. The release manifest records SHA-256 values for public files.
+The public reproducibility archive is available through the stable Zenodo concept DOI https://doi.org/10.5281/zenodo.21951887 and GitHub release v1.0.5 (https://github.com/zbwcc00/pdac-spatial-program-association/releases/tag/v1.0.5). The synchronized v1.0.5 package contains the submission manuscript, this supplementary methods/data dictionary, `supplementary_pack_manifest_v7.json`, public reproducibility documentation, and `release_manifest.json`; raw GEO archives are not redistributed. The release manifest records SHA-256 values for public files.

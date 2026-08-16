@@ -14,6 +14,6 @@ read as one.
 | v7 | Added whole-tissue/DC-core-conditioning, DC-core-threshold, k=4/6/12, coordinate-distance, VIF, and all-patient-display analyses | Added in response to methodological review. Post-hoc sensitivity/descriptive analyses; they neither replace nor confirm the locked primary endpoint. |
 | 2026-08-14 single-cell attribution addendum | Audited the complete GSE202051 author-annotated integrated object and scored unchanged frozen programs using patient-level author-label comparisons | Added after the spatial analyses to resolve a cell-identity evidence gap. It is program-attribution/non-specificity QC, not a prospective confirmation, validation of the spatial association, or a cell-interaction analysis. |
 
-All scripts, deterministic seeds, output paths, and SHA-256 records in the local
-release manifest must be reconciled before public release. A public repository,
-environment file, release tag, and Zenodo DOI remain required before submission.
+The public repository records scripts, deterministic seeds, output paths, and
+SHA-256 values in its release manifest. The archived GitHub release and stable
+Zenodo concept DOI provide the public reproducibility record for submission.
