@@ -96,13 +96,13 @@ only; it intentionally does not download public data or rerun analyses.
 
 ## Public synchronized release
 
-The latest published archive is [Zenodo v1.0.2](https://doi.org/10.5281/zenodo.21957518); the stable Zenodo concept DOI [10.5281/zenodo.21951887](https://doi.org/10.5281/zenodo.21951887) resolves to that latest published version. Release v1.0.3 is prepared to correct the v1.0.2 archive's misplaced root-level duplicate files: it restores the synchronized files at their documented repository paths. Do not cite v1.0.3 or state that the concept DOI contains it until the GitHub v1.0.3 release has been archived by Zenodo. The v1.0.3 package contains the submission manuscript, final supplementary methods/data dictionary, supplementary-pack manifest, public reproducibility documentation, and the SHA-256 release manifest.
+Release v1.0.4 synchronizes the public manuscript, supplementary materials, metadata, manifests, verification report, and build scripts at their documented repository paths. Cite the stable Zenodo concept DOI [10.5281/zenodo.21951887](https://doi.org/10.5281/zenodo.21951887), which resolves to the latest published archive. The v1.0.4 package contains the submission manuscript, final supplementary methods/data dictionary, supplementary-pack manifest, public reproducibility documentation, and the SHA-256 release manifest.
 
 ## Publication metadata
 
-`LICENSE`, `CITATION.cff`, and `zenodo.json` hold the release metadata. Create
-and push a tagged GitHub release, then archive that tag in Zenodo. Do not
-insert a DOI into the manuscript until Zenodo has returned it.
+`LICENSE`, `CITATION.cff`, and `zenodo.json` hold the release metadata. The
+tagged GitHub release is archived by Zenodo; the stable concept DOI above is
+used consistently in the manuscript and supplementary materials.
 
 ## Data and citation
 

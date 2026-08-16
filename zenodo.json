@@ -1,6 +1,6 @@
 {
   "title": "Local association of mregDC-like and T-cell/lymphoid transcriptional programs in PDAC",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "upload_type": "software",
   "description": "Code, derived results, figures, and manuscript sources for a public-data study of a specified local association between mregDC-like and T-cell/lymphoid transcriptional programs in pancreatic ductal adenocarcinoma. Raw GEO data are not redistributed.",
   "creators": [
