@@ -15,9 +15,12 @@ __pycache__/
 *.part
 *.tmp
 *.log
+qa_*/
+local_release_manifest_v7.json
+verification_manifest_v7.json
+release_verification_v7.json
 
 # Credentials and editor state.
 .env
 *.token
 .vscode/
-

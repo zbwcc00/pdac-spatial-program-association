@@ -1,4 +1,4 @@
-# GitHub and Zenodo release procedure
+# GitHub and Zenodo v1.0.5 revision-release procedure
 
 ## 1. Final local check
 
@@ -16,44 +16,46 @@ in the README, then repeat the two verification commands above.
 Review `git status` before staging. It must not contain `data/00_raw`,
 `data/01_unpacked`, a local Conda environment, credentials, or `.part` files.
 
-## 2. Create the GitHub repository
+## 2. Update the existing public GitHub repository
 
-Create an empty repository under the confirmed owner in the GitHub web
-interface. Do not ask GitHub to add a README, `.gitignore`, or license because
-these are already handled locally. The public repository must be public before
-Zenodo can archive it.
+The public repository already exists at
+`https://github.com/zbwcc00/pdac-spatial-program-association`. Commit and push
+only the reviewed v1.0.5 revision files. Do not add raw GEO archives, local
+temporary files, or `qa_*` rendering artifacts. The repository must remain
+public for Zenodo to archive the release.
 
-Then add the returned HTTPS remote and push the committed `main` branch:
+Before publishing, confirm that the GitHub file list contains the current
+manuscript, final supplement, public runbook, `release_manifest.json`, and
+`release_verification.json`, and that all version labels read `v1.0.5`.
 
 ```powershell
-git remote add origin https://github.com/OWNER/pdac-spatial-program-association.git
 git push -u origin main
 ```
 
-Replace `OWNER` only with the confirmed GitHub account or organization name.
-
 ## 3. Create the tagged GitHub release
 
-Update `CITATION.cff`, `zenodo.json`, and `LICENSE` from their templates only
-after author and license metadata are final. Commit those edits, then create a
-versioned annotated tag and push it:
+Update `CITATION.cff`, `zenodo.json`, `README.md`,
+`release_manifest.json`, and `release_verification.json` with the reviewed
+v1.0.5 content. Commit those edits, then create a versioned annotated tag and
+push it:
 
 ```powershell
-git add CITATION.cff zenodo.json LICENSE release_manifest.json
-git commit -m "Prepare public release v1.0.0"
-git tag -a v1.0.0 -m "PDAC spatial program association v1.0.0"
+git add -A
+git commit -m "Release v1.0.5 reproducibility corrections"
+git tag -a v1.0.5 -m "PDAC spatial program association v1.0.5"
 git push origin main --tags
 ```
 
-Create a GitHub Release from the `v1.0.0` tag. Attach no raw GEO data.
+Create a GitHub Release from the `v1.0.5` tag. Attach no raw GEO data.
 
 ## 4. Archive with Zenodo and obtain the DOI
 
-Sign in to [Zenodo](https://zenodo.org/), open the GitHub integration, enable
-the public repository, and select the `v1.0.0` release. Zenodo will archive
-the tagged snapshot and mint a version-specific DOI. Check that its title,
-authors, license, description, keywords, repository URL, and version match the
-final metadata before publishing the record.
+Sign in to [Zenodo](https://zenodo.org/), open the GitHub integration, and
+confirm that the public repository is enabled. Creating the GitHub `v1.0.5`
+release should then create a new Zenodo version automatically. If it does not,
+use Zenodo's GitHub integration to archive that release manually. Check that
+its title, authors, license, description, keywords, repository URL, and
+version match the final metadata before publishing the record.
 
 Only after Zenodo reports the DOI should the authors add it to the manuscript,
 README, and citation metadata in a follow-up tagged commit. Preserve both the
@@ -61,7 +63,7 @@ version-specific DOI and Zenodo concept DOI if supplied.
 
 ## 5. Post-release integrity check
 
-Confirm that GitHub shows the `v1.0.0` tag, Zenodo resolves the DOI, GitHub
+Confirm that GitHub shows the `v1.0.5` tag, Zenodo resolves the DOI, GitHub
 Actions passed static validation, and the archived release contains no raw GEO
 archives. Save the GitHub release URL and Zenodo record URL in the submission
 cover letter or Data Availability statement.

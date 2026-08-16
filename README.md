@@ -96,7 +96,7 @@ only; it intentionally does not download public data or rerun analyses.
 
 ## Public synchronized release
 
-Release v1.0.4 synchronizes the public manuscript, supplementary materials, metadata, manifests, verification report, and build scripts at their documented repository paths. Cite the stable Zenodo concept DOI [10.5281/zenodo.21951887](https://doi.org/10.5281/zenodo.21951887), which resolves to the latest published archive. The v1.0.4 package contains the submission manuscript, final supplementary methods/data dictionary, supplementary-pack manifest, public reproducibility documentation, and the SHA-256 release manifest.
+Release v1.0.5 synchronizes the public manuscript, supplementary materials, metadata, manifests, verification report, and build scripts at their documented repository paths. Cite the stable Zenodo concept DOI [10.5281/zenodo.21951887](https://doi.org/10.5281/zenodo.21951887), which resolves to the latest published archive. The v1.0.5 package contains the submission manuscript, final supplementary methods/data dictionary, supplementary-pack manifest, public reproducibility documentation, and the SHA-256 release manifest.
 
 ## Publication metadata
 

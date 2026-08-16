@@ -1,8 +1,8 @@
-# V7 local reproduction and verification runbook
+# V7 public reproduction and verification runbook
 
 ## Scope
 
-This is a local pre-publication release record. It reproduces the locked spatial
+This is the public reproduction record. It reproduces the locked spatial
 analysis and later documented sensitivities, reruns the independent GSE202051
 program-attribution QC, synchronizes S9/S30-S32 into the v7 supplementary
 package, regenerates all five main figures and supplementary Figures S1-S8,
@@ -48,7 +48,7 @@ substantial time because of the four 250-draw graph-null batches and the
 .\REPRODUCE_ALL_V7.ps1 -PythonSpatial <path-to-spatial-python> -PythonSingleCell <path-to-single-cell-python>
 ```
 
-The script stops on an error. `local_release_manifest_v7.json` is created only
+The script stops on an error. `verification_manifest_v7.json` is created only
 after all expected artifacts exist. `release_verification_v7.json` is written
 last and must report `PASS` before any external release is prepared.
 The supplement synchronizer removes only superseded generated v1/v3 manifest
@@ -74,7 +74,6 @@ index. The root v7 manifest hashes every remaining file in that directory.
 
 ## Deferred external-release tasks
 
-After the local release verifies, create a GitHub repository, push only code
-and nonrestricted derivative assets, apply a release tag, archive that tag in
-Zenodo, and update the manuscript with the resulting DOI. These actions are
-deliberately not included in the current runbook.
+The public GitHub repository contains only code and nonrestricted derivative
+assets. Its tagged releases are archived by Zenodo; cite the stable Zenodo
+concept DOI recorded in the manuscript and README.
