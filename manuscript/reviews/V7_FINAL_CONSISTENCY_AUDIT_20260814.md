@@ -1,15 +1,16 @@
 # V7 Final Consistency Audit
 
 **Audit date:** 2026-08-14  
-**Scope:** local pre-publication reproducibility package and the v7 manuscript
-source/Word render. This is an internal consistency audit, not an external
-peer-review decision or a claim of prospective confirmation.
+**Scope:** historical internal consistency audit completed before the public
+release of the v7 manuscript source/Word render. It is superseded for release
+status by the public v1.0.5 package and remains neither an external peer-review
+decision nor a claim of prospective confirmation.
 
 ## Result
 
 **PASS after the corrections documented below.** No unresolved discrepancy was
 found between the locked primary analysis, randomization summaries, v7 text,
-main figures, supplementary package, or local release record.
+main figures, supplementary package, or the then-current verification record.
 
 ## Numerical Cross-checks
 
@@ -60,7 +61,7 @@ main figures, supplementary package, or local release record.
 - All 20 scripts invoked by the runbook are content-addressed. The v7 Word
   builder's inherited v5 builder and all five main figure PDF/PNG assets are
   also hashed.
-- The manifest now recursively hashes every active v7 supplementary file.
+- The verification manifest now recursively hashes every active v7 supplementary file.
   Superseded generated v1/v3 supplemental manifest indexes are removed by the
   v7 synchronizer; the package has one active `supplementary_pack_manifest_v7.json`.
 - Figure 5 was relabelled from “holdout validation” to “holdout sensitivity”

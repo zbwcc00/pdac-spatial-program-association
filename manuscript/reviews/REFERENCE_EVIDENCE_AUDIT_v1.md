@@ -1,7 +1,7 @@
 # Reference Evidence Audit
 
 **Manuscript:** `Manuscript_full_v7_single_cell_attribution.md`  
-**Audit date:** 2026-08-14  
+**Audit date:** 2026-08-14; updated for public-release manuscript v1.0.5
 **Search route:** PubMed E-utilities (title, journal, date, DOI and indexed abstract where supplied), followed by a claim-to-source audit before insertion.  
 **Citation style:** Vancouver; numbering follows first appearance in the manuscript.
 
@@ -37,19 +37,18 @@ Each source below has a distinct in-text job. Primary studies support their stat
 | 24 | PMID 37914939; Nature primary PDAC study | Provenance for GSE237846/GSE217845 and limited PDAC myeloid context. | Study is the GEO parent publication for both accession roles in Supplementary Table S21. It is not cited as evidence for this study's associations. Provenance verified. |
 | 25 | PMID 35902743; Nature Genetics primary PDAC study | Provenance for GSE202051. | PubMed record and downloaded object provenance identify the single-nucleus/spatial PDAC study. Used only for dataset attribution. Verified. |
 | 26 | PMID 11752295; Nucleic Acids Research resource paper | GEO is a public functional-genomics archive. | Original GEO repository paper. Verified, direct. |
-| 27 | PMID 24071849; Nature Genetics consortium paper | TCGA-PAAD is a bulk-expression boundary analysis. | Used only to identify the TCGA resource, not as spatial evidence. Verified, direct resource attribution. |
-| 28 | PMID 21044043; Statistical Applications in Genetics and Molecular Biology methods paper | Add-one Monte Carlo P-value formula for randomly drawn permutations. | Abstract explicitly argues that permutation P-values should not be zero and develops a valid random-permutation calculation. Verified, direct methodological use. |
-| 29 | Efron 1979; Annals of Statistics methods paper | Percentile bootstrap confidence-interval framework. | Original bootstrap-methods paper. Verified bibliographically; used only for a standard inferential procedure. |
-| 30 | Benjamini and Hochberg 1995; JRSS B methods paper | FDR adjustment across exploratory single-cell comparisons. | Original false-discovery-rate control method. Verified bibliographically; direct methodological use. |
-| 31 | PMID 36130070; Annual Review of Pathology review | PDAC stromal and immune states are heterogeneous. | Abstract explicitly describes prominent stromal microenvironment and marked cellular/spatial heterogeneity. Verified, paraphrase. |
-| 32 | PMID 31197017; Cancer Discovery primary PDAC study | PDAC fibroblast/immune states are heterogeneous. | Abstract reports myofibroblastic, inflammatory and antigen-presenting CAF states in human/mouse PDAC. Verified, paraphrase. |
-| 33 | PMID 37699391; Immunity review | Future TLS assessment should combine molecular and cellular context. | Review used for broad TLS/B-cell intratumoral-immunity synthesis, not for an experimental result. Scope verified. |
-| 34 | PMID 35365796; Nature Reviews Clinical Oncology review | Future TLS assessment should combine molecular, cellular and structural context. | Review used only for conceptual framing of TLS immune contexture; no clinical-outcome inference is made here. Scope verified. |
-| 35 | PMID 39029466; Cancer Cell primary study | mregDCs can participate in a spatially defined immune context in another tumour setting. | Abstract reports an mregDC-associated peri-lymphatic Treg context and its function. Verified, paraphrase; manuscript immediately states this cannot be transferred as a PDAC mechanism. |
+| 27 | PMID 21044043; Statistical Applications in Genetics and Molecular Biology methods paper | Add-one Monte Carlo P-value formula for randomly drawn permutations. | Abstract explicitly argues that permutation P-values should not be zero and develops a valid random-permutation calculation. Verified, direct methodological use. |
+| 28 | Efron 1979; Annals of Statistics methods paper | Percentile bootstrap confidence-interval framework. | Original bootstrap-methods paper. Verified bibliographically; used only for a standard inferential procedure. |
+| 29 | Benjamini and Hochberg 1995; JRSS B methods paper | FDR adjustment across exploratory single-cell comparisons. | Original false-discovery-rate control method. Verified bibliographically; direct methodological use. |
+| 30 | PMID 36130070; Annual Review of Pathology review | PDAC stromal and immune states are heterogeneous. | Abstract explicitly describes prominent stromal microenvironment and marked cellular/spatial heterogeneity. Verified, paraphrase. |
+| 31 | PMID 31197017; Cancer Discovery primary PDAC study | PDAC fibroblast/immune states are heterogeneous. | Abstract reports myofibroblastic, inflammatory and antigen-presenting CAF states in human/mouse PDAC. Verified, paraphrase. |
+| 32 | PMID 37699391; Immunity review | Future TLS assessment should combine molecular and cellular context. | Review used for broad TLS/B-cell intratumoral-immunity synthesis, not for an experimental result. Scope verified. |
+| 33 | PMID 35365796; Nature Reviews Clinical Oncology review | Future TLS assessment should combine molecular, cellular and structural context. | Review used only for conceptual framing of TLS immune contexture; no clinical-outcome inference is made here. |
+| 34 | PMID 39029466; Cancer Cell primary study | mregDCs can participate in a spatially defined immune context in another tumour setting. | Abstract reports an mregDC-associated peri-lymphatic Treg context and its function. Verified, paraphrase; manuscript immediately states this cannot be transferred as a PDAC mechanism. |
 
 ## Result
 
-- **Reference count:** 35. This is intentionally below an arbitrary target of 40 because every included item has a defined manuscript role; additional weakly relevant references were excluded.
+- **Reference count:** 34. The previously listed TCGA resource entry was removed because no TCGA-PAAD analysis or result is reported in the current manuscript. This remains intentionally below an arbitrary target of 40 because every included item has a defined manuscript role; additional weakly relevant references were excluded.
 - **High-impact, recent biology corpus:** 2019-2025 PDAC, TLS, mregDC and spatial-transcriptomics articles predominate.
-- **Necessary older methods/resources:** spatial autocorrelation, permutation-P calculation, bootstrap/FDR, GEO and TCGA sources are retained because they are original methods or repositories.
+- **Necessary older methods/resources:** spatial autocorrelation, permutation-P calculation, bootstrap/FDR, and GEO sources are retained because they are original methods or repositories.
 - **Claim boundary:** no reference is used to assert that the observed score-field association is a TLS, a cell-cell interaction, mregDC/Tfh-specific, causal, prognostic or treatment-predictive.
