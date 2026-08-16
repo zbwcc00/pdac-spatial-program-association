@@ -1,6 +1,6 @@
 {
   "schema": "pdac-spatial-program-association-public-release-v1",
-  "created_utc": "2026-08-15T19:24:24.166356+00:00",
+  "created_utc": "2026-08-15T19:57:05.529781+00:00",
   "scope": "public code, manuscript sources, derived results, and figures; raw GEO data excluded",
   "input_config": "config/public_inputs.json",
   "files": [
@@ -21,8 +21,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1481,
-      "sha256": "ec90196e99d9040eb134ca2dd6a9d6a40c7cba72816125a7dd6a744b62433766"
+      "bytes": 1480,
+      "sha256": "8bd17196bf068d3a88c647c7f5296606b0d5efb11d9f7312116f49fb08cf90bf"
     },
     {
       "path": "CITATION.cff.template",
@@ -186,13 +186,13 @@
     },
     {
       "path": "manuscript/drafts/Manuscript_full_v7_single_cell_attribution.docx",
-      "bytes": 6842606,
-      "sha256": "66420cadfc080b6d46d10ab20588be91e6aa608aa65e9559fb44c47e897ceb3b"
+      "bytes": 6842628,
+      "sha256": "04158a5dd3a0628a493c7a2b1ee65d3e47a09978364a7a77481901cf72823bc7"
     },
     {
       "path": "manuscript/drafts/Manuscript_full_v7_single_cell_attribution.md",
-      "bytes": 43872,
-      "sha256": "838b1dfd1959f89defec6e313e50a7b3b94f2f059a305666899102b455edeb55"
+      "bytes": 43930,
+      "sha256": "19a27b56719066a66df710d46c8ca0922a096aece8a9696fd0c0d42a02998824"
     },
     {
       "path": "manuscript/external_single_cell_attribution_audit_v3.md",
@@ -311,13 +311,13 @@
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Methods_and_Data_Dictionary_v3.md",
-      "bytes": 10239,
-      "sha256": "30438dad154cbfedf02a3a66cbc22183cddcdac046463a7a52cb1a47985b71ac"
+      "bytes": 10275,
+      "sha256": "6c13943ef4d8c517bc10ff1b797a97f073aa8cc601ef69af9cb63febe393e411"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/supplementary_pack_manifest_v7.json",
-      "bytes": 1157,
-      "sha256": "535a16c5e14abf15861bc1b300df14066107bdf100b6a5cda3aa20ffad0f77d3"
+      "bytes": 1158,
+      "sha256": "27363411c4e07631d69fe2eac8e670c34e7431925f44faaf70b15b53489b6333"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S10_GSE278687_block_holdout.tsv",
@@ -906,8 +906,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5572,
-      "sha256": "b4048314b9f378f4ff07e9c82c61d6fb59b71279340d67faed63b1eb5e29f2a7"
+      "bytes": 5663,
+      "sha256": "f150fe1db22978db898a5cf6bd9a886e7ac746ecce77edd7225f918de67c1010"
     },
     {
       "path": "RELEASE_CHECKLIST_v7.md",
@@ -1211,8 +1211,8 @@
     },
     {
       "path": "zenodo.json",
-      "bytes": 1744,
-      "sha256": "6aa1b0cedf24ee5975caab61243b36b2fcdcd2bb65aabc9dccf0e5a367703749"
+      "bytes": 1743,
+      "sha256": "d361cbd2626904108cfd98e96157963acdaa2c37ad9cbff1aa810ac1db440cc3"
     },
     {
       "path": "zenodo.json.template",

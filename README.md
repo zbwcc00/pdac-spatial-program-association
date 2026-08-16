@@ -96,7 +96,7 @@ only; it intentionally does not download public data or rerun analyses.
 
 ## Public synchronized release
 
-The latest published archive is [Zenodo v1.0.1](https://doi.org/10.5281/zenodo.21953739); the stable Zenodo concept DOI [10.5281/zenodo.21951887](https://doi.org/10.5281/zenodo.21951887) resolves to that latest published version. Release v1.0.2 is prepared locally but is **not yet published**. Do not cite v1.0.2 or state that the concept DOI contains it until the GitHub v1.0.2 release has been archived by Zenodo. The v1.0.2 package is intended to contain the submission manuscript, final supplementary methods/data dictionary, supplementary-pack manifest, public reproducibility documentation, and the SHA-256 release manifest.
+The latest published archive is [Zenodo v1.0.2](https://doi.org/10.5281/zenodo.21957518); the stable Zenodo concept DOI [10.5281/zenodo.21951887](https://doi.org/10.5281/zenodo.21951887) resolves to that latest published version. Release v1.0.3 is prepared to correct the v1.0.2 archive's misplaced root-level duplicate files: it restores the synchronized files at their documented repository paths. Do not cite v1.0.3 or state that the concept DOI contains it until the GitHub v1.0.3 release has been archived by Zenodo. The v1.0.3 package contains the submission manuscript, final supplementary methods/data dictionary, supplementary-pack manifest, public reproducibility documentation, and the SHA-256 release manifest.
 
 ## Publication metadata
 
