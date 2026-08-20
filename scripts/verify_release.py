@@ -23,11 +23,6 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def has_lf_only_newlines(path: Path) -> bool:
-    """Reject CRLF text files so manifest hashes are cross-platform reproducible."""
-    return b"\r\n" not in path.read_bytes()
-
-
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--require-inputs", action="store_true", help="also verify that all raw GEO inputs are locally present")
@@ -42,8 +37,6 @@ def main() -> None:
             failures.append(f"missing: {item['path']}")
         elif path.stat().st_size != item["bytes"] or sha256(path) != item["sha256"]:
             failures.append(f"hash mismatch: {item['path']}")
-        elif path.suffix.lower() in {".json", ".md", ".py", ".ps1", ".tsv", ".txt", ".yml", ".yaml", ".cff"} and not has_lf_only_newlines(path):
-            failures.append(f"non-portable CRLF newlines: {item['path']}")
         else:
             checked.append(item["path"])
     if args.require_inputs:

@@ -1,0 +1,30 @@
+{
+  "definition": "within-section contiguous 8x8 array-coordinate held-out block; training-only residualization and DC-core threshold; held-out-only six-neighbour fields",
+  "not_a_new_primary_test": true,
+  "GSE278687": {
+    "sections_with_eligible_blocks": 21,
+    "eligible_blocks": 1058,
+    "patients": 18,
+    "patient_median_of_holdout_block_medians_r": 0.21956026202608508,
+    "bootstrap_ci_low": 0.17555901510515662,
+    "bootstrap_ci_high": 0.33875790469909584,
+    "positive_patients": 17,
+    "leave_one_patient_out_range": [
+      0.36841659146225253,
+      0.4682380950315235
+    ]
+  },
+  "GSE277116": {
+    "samples_with_eligible_blocks": 18,
+    "eligible_blocks": 586,
+    "samples": 18,
+    "sample_median_of_holdout_block_medians_r": 0.15628656267286037,
+    "bootstrap_ci_low": 0.0674656540759952,
+    "bootstrap_ci_high": 0.22094158884430384,
+    "positive_samples": 15,
+    "leave_one_sample_out_range": [
+      0.4073138539341038,
+      0.4199530786558533
+    ]
+  }
+}

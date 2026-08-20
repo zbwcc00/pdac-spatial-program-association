@@ -16,7 +16,6 @@ import io
 import gzip
 import json
 import os
-import re
 import sys
 import tarfile
 from collections import defaultdict
@@ -37,15 +36,11 @@ N_DRAWS = int(os.environ.get("MASK_MORAN_DRAWS", "999"))
 
 
 def load_locked_module():
-    module = importlib.util.module_from_spec(importlib.util.spec_from_loader("locked_v2_for_v4", loader=None))
-    source = PIPELINE.read_text(encoding="utf-8")
-    source, count = re.subn(
-        r"^PROJECT = Path\([^\n]+\)$", f"PROJECT = Path({str(PROJECT)!r})", source,
-        count=1, flags=re.MULTILINE,
-    )
-    if count != 1:
-        raise RuntimeError("Could not set locked v2 project path")
-    exec(compile(source, str(PIPELINE), "exec"), module.__dict__)
+    specification = importlib.util.spec_from_file_location("locked_v2_for_v4", PIPELINE)
+    if specification is None or specification.loader is None:
+        raise RuntimeError(f"Could not load pipeline: {PIPELINE}")
+    module = importlib.util.module_from_spec(specification)
+    specification.loader.exec_module(module)
     return module
 
 

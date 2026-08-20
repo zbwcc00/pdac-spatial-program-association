@@ -1,0 +1,9 @@
+cohort	threshold_rule	threshold	n_eligible_units	n_total_units	median_primary_local_r	bootstrap_ci_low	bootstrap_ci_high	n_positive	selection_note
+GSE278687	both fixed primary program nonzero fractions >= threshold	0.2	17	18	0.4682380950315235	0.31346844355574055	0.5371701860408028	17	Thresholds were predefined; no competitive-program scoreability was used for selection.
+GSE278687	both fixed primary program nonzero fractions >= threshold	0.3	16	18	0.469015501514506	0.3409425175089965	0.5371701860408028	16	Thresholds were predefined; no competitive-program scoreability was used for selection.
+GSE278687	both fixed primary program nonzero fractions >= threshold	0.4	16	18	0.469015501514506	0.35251513026415443	0.5371701860408028	16	Thresholds were predefined; no competitive-program scoreability was used for selection.
+GSE278687	both fixed primary program nonzero fractions >= threshold	0.5	16	18	0.469015501514506	0.3409425175089965	0.5371701860408028	16	Thresholds were predefined; no competitive-program scoreability was used for selection.
+GSE277116	both fixed primary program nonzero fractions >= threshold	0.2	16	18	0.39551251494622774	0.2699440571783039	0.4574517036100717	16	Thresholds were predefined; no competitive-program scoreability was used for selection.
+GSE277116	both fixed primary program nonzero fractions >= threshold	0.3	12	18	0.41363346629497855	0.28747885473681545	0.47018967558860414	12	Thresholds were predefined; no competitive-program scoreability was used for selection.
+GSE277116	both fixed primary program nonzero fractions >= threshold	0.4	10	18	0.39551251494622774	0.2699440571783039	0.45144036311149494	10	Thresholds were predefined; no competitive-program scoreability was used for selection.
+GSE277116	both fixed primary program nonzero fractions >= threshold	0.5	7	18	0.38371117595835164	0.2699440571783039	0.4199530786558533	7	Thresholds were predefined; no competitive-program scoreability was used for selection.

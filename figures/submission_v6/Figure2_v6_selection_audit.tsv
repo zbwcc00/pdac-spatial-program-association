@@ -1,0 +1,3 @@
+sample	patient	selection_rule	patient_level_primary_local_r	dc_core_mask_spots	all_tissue_spots
+GSM8552956_PA40	PA40	nearest empirical 25th-percentile effect	0.3098014452941048	2685	4851
+GSM8552957_PA47	PA47	nearest empirical 75th-percentile effect	0.49527827218234743	1661	4012

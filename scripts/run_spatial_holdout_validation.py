@@ -14,7 +14,6 @@ import csv
 import importlib.util
 import io
 import json
-import re
 import tarfile
 from collections import defaultdict
 from pathlib import Path
@@ -30,22 +29,11 @@ BLOCK = 8
 MIN_TEST_SPOTS = 25
 MIN_MASKED_SPOTS = 20
 
-# The locked source predates a Windows code-page change and contains a literal
-# project path that can be decoded differently across shells.  Execute its
-# unchanged analytical functions after substituting only that path assignment;
-# the original locked file itself is never edited by this validation script.
-locked = importlib.util.module_from_spec(importlib.util.spec_from_loader("locked_v2", loader=None))
-source = PIPELINE.read_text(encoding="utf-8")
-source, replacements = re.subn(
-    r'^PROJECT = Path\([^\n]+\)$',
-    f"PROJECT = Path({str(PROJECT)!r})",
-    source,
-    count=1,
-    flags=re.MULTILINE,
-)
-if replacements != 1:
-    raise RuntimeError("Could not replace the locked pipeline project-path assignment")
-exec(compile(source, str(PIPELINE), "exec"), locked.__dict__)
+specification = importlib.util.spec_from_file_location("locked_v2", PIPELINE)
+if specification is None or specification.loader is None:
+    raise RuntimeError(f"Could not load pipeline: {PIPELINE}")
+locked = importlib.util.module_from_spec(specification)
+specification.loader.exec_module(locked)
 
 
 def fit_residual(train_y, train_covariates, test_y, test_covariates):

@@ -1,0 +1,114 @@
+{
+  "dataset": "GSE217845",
+  "source": "GEO family SOFT: human-PDAC subseries of GSE217847; raw matrices traced to GSM6727542-GSM6727551 in GSE217847_RAW.tar; cell-type metadata not publicly supplied in GEO",
+  "purpose": "marker-gated program-detectability and gating-feasibility QC",
+  "gates": {
+    "mregDC_candidate": {
+      "required_any": [
+        "FCER1A",
+        "CD1C",
+        "CLEC10A"
+      ],
+      "minimum_detected": 1,
+      "program": [
+        "LAMP3",
+        "FSCN1",
+        "CCR7",
+        "CCL19",
+        "CD80",
+        "CD86"
+      ],
+      "program_minimum_detected": 2
+    },
+    "Tfh_candidate": {
+      "required_any": [
+        "CD3D",
+        "CD3E",
+        "TRAC"
+      ],
+      "minimum_detected": 1,
+      "program": [
+        "CD3D",
+        "CD3E",
+        "CD4",
+        "CXCR5",
+        "PDCD1",
+        "ICOS",
+        "BCL6",
+        "IL7R",
+        "CXCL13"
+      ],
+      "program_minimum_detected": 3,
+      "required_program_any": [
+        "CXCR5",
+        "PDCD1",
+        "ICOS",
+        "BCL6",
+        "CXCL13"
+      ]
+    },
+    "non_Tfh_CD4_candidate": {
+      "required_all": [
+        "CD3D",
+        "CD3E"
+      ],
+      "required_any": [
+        "IL7R",
+        "LTB",
+        "CCR7",
+        "TCF7"
+      ],
+      "minimum_detected": 1,
+      "exclude_any": [
+        "CXCR5",
+        "PDCD1",
+        "ICOS",
+        "BCL6",
+        "CXCL13"
+      ]
+    },
+    "Treg_candidate": {
+      "required_any": [
+        "FOXP3",
+        "IL2RA",
+        "CTLA4",
+        "TIGIT"
+      ],
+      "minimum_detected": 2
+    },
+    "exhausted_CD8_candidate": {
+      "required_any": [
+        "CD8A",
+        "CD8B"
+      ],
+      "minimum_detected": 1,
+      "program": [
+        "LAG3",
+        "HAVCR2",
+        "ENTPD1",
+        "LAYN",
+        "TOX"
+      ],
+      "program_minimum_detected": 2
+    },
+    "macrophage_candidate": {
+      "required_any": [
+        "C1QA",
+        "C1QB",
+        "C1QC",
+        "APOC1",
+        "SPP1"
+      ],
+      "minimum_detected": 2
+    }
+  },
+  "priority_order": [
+    "mregDC_candidate",
+    "Tfh_candidate",
+    "Treg_candidate",
+    "exhausted_CD8_candidate",
+    "non_Tfh_CD4_candidate",
+    "macrophage_candidate"
+  ],
+  "interpretation_limit": "candidate gate labels are not author annotations and do not establish canonical cell identity"
+}

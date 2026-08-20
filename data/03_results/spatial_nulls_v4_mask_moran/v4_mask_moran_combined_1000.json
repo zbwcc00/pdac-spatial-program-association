@@ -1,0 +1,38 @@
+[
+  {
+    "cohort": "GSE278687",
+    "statistic": "cohort median of patient-median local r",
+    "n_units": 18,
+    "n_null_draws": 3996,
+    "observed": 0.41832734324688803,
+    "null_median": 0.000333347453761,
+    "null_ci_low": -0.0247038106769875,
+    "null_ci_high": 0.025940766351362502,
+    "n_as_or_more_extreme": 0,
+    "two_sided_add_one_monte_carlo_p": 0.0002501876407305479,
+    "mask_moran_abs_delta_draw_section_median": 2.1102975888462328e-05,
+    "mask_moran_abs_delta_draw_section_median_max": 4.578923672488022e-05,
+    "global_moran_abs_delta_draw_section_median": 0.035034166108854806,
+    "global_moran_abs_delta_draw_section_median_max": 0.06184296602425232,
+    "calibration_target": "DC-core-mask induced-subgraph outcome Moran I; whole-section Moran I is audit only",
+    "batching": "four separately seeded deterministic batches of 250 draws; concatenated before inference"
+  },
+  {
+    "cohort": "GSE277116",
+    "statistic": "cohort median of sample-median local r",
+    "n_units": 18,
+    "n_null_draws": 3996,
+    "observed": 0.41363346629497855,
+    "null_median": -6.38214137504e-05,
+    "null_ci_low": -0.032135241682675,
+    "null_ci_high": 0.0308528009647125,
+    "n_as_or_more_extreme": 0,
+    "two_sided_add_one_monte_carlo_p": 0.0002501876407305479,
+    "mask_moran_abs_delta_draw_section_median": 1.951903013602818e-05,
+    "mask_moran_abs_delta_draw_section_median_max": 3.9647693826014296e-05,
+    "global_moran_abs_delta_draw_section_median": 0.026402883005421818,
+    "global_moran_abs_delta_draw_section_median_max": 0.04939754655178275,
+    "calibration_target": "DC-core-mask induced-subgraph outcome Moran I; whole-section Moran I is audit only",
+    "batching": "four separately seeded deterministic batches of 250 draws; concatenated before inference"
+  }
+]

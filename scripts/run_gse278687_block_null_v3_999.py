@@ -3,7 +3,6 @@ from __future__ import annotations
 
 import importlib.util
 import json
-import re
 from pathlib import Path
 
 import numpy as np
@@ -18,12 +17,11 @@ SEED = 20260813
 
 
 def load():
-    module = importlib.util.module_from_spec(importlib.util.spec_from_loader("locked_block", loader=None))
-    source = PIPELINE.read_text(encoding="utf-8")
-    source, count = re.subn(r"^PROJECT = Path\([^\n]+\)$", f"PROJECT = Path({str(PROJECT)!r})", source, count=1, flags=re.MULTILINE)
-    if count != 1:
-        raise RuntimeError("Could not substitute path")
-    exec(compile(source, str(PIPELINE), "exec"), module.__dict__)
+    specification = importlib.util.spec_from_file_location("locked_block", PIPELINE)
+    if specification is None or specification.loader is None:
+        raise RuntimeError(f"Could not load pipeline: {PIPELINE}")
+    module = importlib.util.module_from_spec(specification)
+    specification.loader.exec_module(module)
     return module
 
 

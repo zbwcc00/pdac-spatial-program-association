@@ -36,7 +36,7 @@ published byte count/SHA-256 for the GSE202051 archive.
 | GSE217847 (GSE217845 PDAC subseries) | limited marker-gated program-detectability QC |
 | GSE202051 | author-annotated fixed-program attribution and specificity QC |
 
-## Reproduce the full v7 release
+## Reproduce the full v1.0.6 release
 
 This workflow requires Windows PowerShell, Conda (or Mamba), Python 3.12, an
 internet connection to NCBI GEO, and enough free disk space for the raw
@@ -74,7 +74,8 @@ python scripts/fetch_public_inputs.py --download --only GSE202051
 python scripts/fetch_public_inputs.py --only GSE202051
 ```
 
-`RUN_ALL.ps1` is fail-fast. A successful full run ends with
+`RUN_ALL.ps1` is fail-fast. It includes the prespecified 4x4, 8x8, and 12x12
+array-coordinate block-size sensitivity analysis. A successful full run ends with
 `release_verification.json` reporting `"status": "PASS"`. The final manuscript
 is rebuilt at `manuscript/drafts/Manuscript_full_v7_single_cell_attribution.docx`;
 main and supplementary figures are under `figures/`.
@@ -89,14 +90,20 @@ not a claim that one earlier environment was used for every intermediate
 analysis.
 
 `scripts/build_release_manifest.py` hashes the public source-and-results
-release. `scripts/verify_release.py --require-inputs` checks those hashes and
+release. It excludes raw data, transient outputs, and cache directories at any
+depth. `scripts/verify_release.py --require-inputs` checks those hashes and
 the presence of the four local GEO inputs; it also verifies the published
 GSE202051 SHA-256. The GitHub Action performs syntax and input-registry checks
 only; it intentionally does not download public data or rerun analyses.
 
 ## Public synchronized release
 
-Release v1.0.5 synchronizes the public manuscript, supplementary materials, metadata, manifests, verification report, and build scripts at their documented repository paths. Cite the stable Zenodo concept DOI [10.5281/zenodo.21951887](https://doi.org/10.5281/zenodo.21951887), which resolves to the latest published archive. The v1.0.5 package contains the submission manuscript, final supplementary methods/data dictionary, supplementary-pack manifest, public reproducibility documentation, and the SHA-256 release manifest.
+Release v1.0.6 is a pending integrity-correction release. It regenerates the
+source-and-results manifest after the complete run, excludes nested Python
+caches, and uses stable block ordering for seeded block-null draws. Do not cite
+v1.0.6 until its GitHub release and Zenodo record are published. The existing
+Zenodo concept DOI [10.5281/zenodo.21951887](https://doi.org/10.5281/zenodo.21951887)
+remains the release-family identifier.
 
 ## Publication metadata
 

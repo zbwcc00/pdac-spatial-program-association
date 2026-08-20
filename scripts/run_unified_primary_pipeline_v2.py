@@ -182,7 +182,7 @@ def block_ids(array_rows, array_cols):
 
 def block_surrogate(values, ids, rng):
     output = np.asarray(values, dtype=float).copy()
-    for block in set(ids.tolist()):
+    for block in np.unique(ids):
         index = np.where(ids == block)[0]
         if len(index) >= 2:
             output[index] = rng.permutation(output[index])

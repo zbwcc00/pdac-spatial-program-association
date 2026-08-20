@@ -1,0 +1,3 @@
+gsm	sample	stratum	mregdc_tfh_local_r	selection_rule
+GSM8514533	pdac5	ffpe	0.30970765932892186	closest to primary-set stratum median local effect
+GSM8514548	pdac20	frozen	0.44914598262231564	closest to primary-set stratum median local effect

@@ -1,0 +1,26 @@
+{
+  "version": "v4_mask_moran_sensitivity",
+  "cohort": "GSE277116",
+  "batch": "3",
+  "seed": 20560813,
+  "draws": 999,
+  "endpoint": "locked v2 primary endpoint",
+  "result": {
+    "cohort": "GSE277116",
+    "statistic": "cohort median of sample-median local r",
+    "n_units": 18,
+    "n_null_draws": 999,
+    "observed": 0.41363346629497855,
+    "null_median": 6.094013314870541e-05,
+    "null_ci_low": -0.0329467454747969,
+    "null_ci_high": 0.03125905647857097,
+    "n_as_or_more_extreme": 0,
+    "two_sided_add_one_monte_carlo_p": 0.001,
+    "mask_moran_abs_delta_draw_section_median": 1.9549178949855583e-05,
+    "mask_moran_abs_delta_draw_section_median_max": 3.257201685788469e-05,
+    "global_moran_abs_delta_draw_section_median": 0.0260665857827621,
+    "global_moran_abs_delta_draw_section_median_max": 0.04304546188123655,
+    "calibration_target": "DC-core-mask induced-subgraph outcome Moran I; whole-section Moran I is audit only"
+  },
+  "caveat": "Only mask-subgraph Moran I is calibrated. Global Moran mismatch is an audit. This is a sensitivity null, not a simultaneous global-and-mask matching method."
+}

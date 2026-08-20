@@ -1,0 +1,22 @@
+gsm	title	tissue_class	sample_type_norm	tissue subtype	treatment arm	technical_candidate	program_scoreability_candidate	tumor_replication_candidate	tumor_program_scoreability_candidate	n_tissue_spots	median_umi_tissue	median_genes_tissue	Tfh_like_gene_coverage_fraction	Tfh_like_genes_detected_at_1pct	mregDC_strict_gene_coverage_fraction	mregDC_strict_genes_detected_at_1pct	B_cell_strict_gene_coverage_fraction
+GSM8514530	pdac2	tumor	ffpe	Tumor	A	1	1	1	1	2553	2727.0	1830.0	1.0	9	1.0	6	1.0
+GSM8514532	pdac4	tumor	ffpe	Tumor	C	1	1	1	1	2613	410.0	372.0	1.0	8	1.0	5	1.0
+GSM8514533	pdac5	tumor	ffpe	Tumor	A	1	1	1	1	3250	1174.5	924.0	1.0	5	1.0	5	1.0
+GSM8514534	pdac6	tumor	ffpe	Tumor	A	1	1	1	1	2929	6083.0	3074.0	1.0	9	1.0	6	1.0
+GSM8514535	pdac7	tumor	ffpe	Tumor	C	1	1	1	1	4992	2462.0	1687.0	1.0	9	1.0	6	1.0
+GSM8514536	pdac8	tumor	ffpe	Tumor	C	1	1	1	1	3320	8740.5	3992.0	1.0	9	1.0	6	1.0
+GSM8514537	pdac9	tumor	ffpe	Tumor	B	1	1	1	1	3134	6599.5	3305.0	1.0	7	1.0	6	1.0
+GSM8514539	pdac11	tumor	ffpe	Tumor	C	1	1	1	1	3024	3037.0	1878.0	1.0	9	1.0	6	1.0
+GSM8514541	pdac13	tumor	frozen	tumor	A	1	0	1	0	2997	349.0	280.0	1.0	4	1.0	3	1.0
+GSM8514542	pdac14	tumor	frozen	tumor	B	1	0	1	0	2235	481.0	393.0	0.7777777777777778	2	0.8333333333333334	1	1.0
+GSM8514543	pdac15	tumor	frozen	tumor	C	1	1	1	1	1324	1783.5	991.5	1.0	5	1.0	5	1.0
+GSM8514544	pdac16	tumor	frozen	tumor	B	1	1	1	1	1699	248.0	212.0	1.0	5	1.0	5	1.0
+GSM8514546	pdac18	tumor	frozen	tumor	B	1	1	1	1	1693	2468.0	1415.0	1.0	9	1.0	6	1.0
+GSM8514547	pdac19	tumor	frozen	tumor	C	1	1	1	1	2499	1175.0	745.0	1.0	6	1.0	5	1.0
+GSM8514548	pdac20	tumor	frozen	tumor	A	1	1	1	1	3423	478.0	377.0	1.0	5	1.0	4	1.0
+GSM8514549	pdac21	tumor	frozen	tumor	A	1	0	1	0	2467	177.0	154.0	0.6666666666666666	3	1.0	1	1.0
+GSM8514550	pdac22	tumor	frozen	tumor	B	1	1	1	1	1458	143.0	121.5	1.0	5	0.8333333333333334	3	1.0
+GSM8514551	pdac23	tumor	frozen	tumor	C	1	1	1	1	2973	3408.0	1662.0	1.0	5	1.0	5	1.0
+GSM8514552	pdac24	tumor	frozen	tumor	A	1	1	1	1	1938	1739.0	1255.0	1.0	6	0.8333333333333334	5	1.0
+GSM8514553	pdac25	tumor	frozen	tumor	A	1	1	1	1	1450	4876.0	2321.5	1.0	9	1.0	5	1.0
+GSM8514555	pdac27	tumor	frozen	tumor	C	1	1	1	1	2814	1146.5	841.5	1.0	6	1.0	5	1.0

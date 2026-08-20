@@ -9,7 +9,8 @@ from pathlib import Path
 
 PROJECT = Path(__file__).resolve().parents[1]
 OUTPUT = PROJECT / "release_manifest.json"
-EXCLUDED_PARTS = {".git", "data/00_raw", "data/01_unpacked", "data/02_intermediate", "__pycache__"}
+EXCLUDED_ROOTS = {".git", "data/00_raw", "data/01_unpacked", "data/02_intermediate"}
+EXCLUDED_PATH_PARTS = {"__pycache__"}
 EXCLUDED_NAMES = {
     "release_manifest.json",
     "release_verification.json",
@@ -32,7 +33,9 @@ def include(path: Path) -> bool:
     relative = path.relative_to(PROJECT).as_posix()
     return (
         path.name not in EXCLUDED_NAMES
-        and not any(relative == part or relative.startswith(part + "/") for part in EXCLUDED_PARTS)
+        and path.suffix.lower() not in {".pyc", ".pyo"}
+        and not any(relative == root or relative.startswith(root + "/") for root in EXCLUDED_ROOTS)
+        and not (EXCLUDED_PATH_PARTS & set(Path(relative).parts))
         and not any(part.startswith("qa_") for part in relative.split("/"))
     )
 
@@ -43,7 +46,7 @@ def main() -> None:
         if path.is_file() and include(path):
             records.append({"path": path.relative_to(PROJECT).as_posix(), "bytes": path.stat().st_size, "sha256": sha256(path)})
     payload = {
-        "schema": "pdac-spatial-program-association-public-release-v1",
+        "schema": "pdac-spatial-program-association-public-release-v2",
         "created_utc": datetime.now(timezone.utc).isoformat(),
         "scope": "public code, manuscript sources, derived results, and figures; raw GEO data excluded",
         "input_config": "config/public_inputs.json",

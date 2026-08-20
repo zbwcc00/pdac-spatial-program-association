@@ -1,0 +1,11 @@
+{
+  "block_sizes": [
+    4,
+    8,
+    12
+  ],
+  "n_draws_per_block_size": 999,
+  "seed": 20260813,
+  "locked_pipeline": "scripts\\run_unified_primary_pipeline_v2.py",
+  "description": "Patient-level block-null sensitivity using the locked GSE278687 primary score, mask, local-field, and patient-aggregation definitions."
+}

@@ -1,0 +1,2 @@
+cohort	statistic	n_units	n_null_draws	observed	null_median	null_ci_low	null_ci_high	two_sided_p	per_draw_section_median_abs_moran_delta_median	per_draw_section_median_abs_moran_delta_max
+GSE278687	cohort median of patient-median local r	18	199	0.41832734324688803	-0.00014824781170715142	-0.02590490945589382	0.02170782492333856	0.005	2.2122259436430092e-05	3.566831776971591e-05

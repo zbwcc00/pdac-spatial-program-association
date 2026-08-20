@@ -1,0 +1,19 @@
+patient	representative_section	patient_level_primary_local_r	selection_rule
+PA03	GSM8552942_PA03	-0.018329552175999346	section nearest patient-level median; all 18 patients shown
+PA08	GSM8552948_PA08	0.008309910373205854	section nearest patient-level median; all 18 patients shown
+PA04	GSM8552943_PA04-1	0.1003840267823023	section nearest patient-level median; all 18 patients shown
+PA02	GSM8552941_PA02	0.13829926130039497	section nearest patient-level median; all 18 patients shown
+PA40	GSM8552956_PA40	0.3098014452941048	section nearest patient-level median; all 18 patients shown
+PA72	GSM8552958_PA72	0.31346844355574055	section nearest patient-level median; all 18 patients shown
+PA11	GSM8552949_PA11-1	0.35251513026415443	section nearest patient-level median; all 18 patients shown
+PA06	GSM8552947_PA06	0.35717097092452865	section nearest patient-level median; all 18 patients shown
+PA21	GSM8552952_PA21	0.36841659146225253	section nearest patient-level median; all 18 patients shown
+PA24	GSM8552954_PA24	0.4682380950315235	section nearest patient-level median; all 18 patients shown
+PA05	GSM8552946_PA05-2	0.4697929079974885	section nearest patient-level median; all 18 patients shown
+PA29	GSM8552955_PA29	0.4781411813083204	section nearest patient-level median; all 18 patients shown
+PA47	GSM8552957_PA47	0.49527827218234743	section nearest patient-level median; all 18 patients shown
+PA01	GSM8552940_PA01	0.5371701860408028	section nearest patient-level median; all 18 patients shown
+PA85	GSM8552959_PA85	0.5381761391102942	section nearest patient-level median; all 18 patients shown
+PA22	GSM8552953_PA22	0.5748146659588018	section nearest patient-level median; all 18 patients shown
+PA98	GSM8552960_PA98	0.61064811676202	section nearest patient-level median; all 18 patients shown
+PA12	GSM8552951_PA12	0.6530977753464938	section nearest patient-level median; all 18 patients shown

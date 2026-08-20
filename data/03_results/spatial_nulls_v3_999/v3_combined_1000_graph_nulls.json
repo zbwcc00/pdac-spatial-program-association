@@ -1,0 +1,56 @@
+[
+  {
+    "cohort": "GSE278687",
+    "n_independent_graph_null_draws": 3996,
+    "observed": 0.4183273,
+    "n_as_or_more_extreme": 0,
+    "two_sided_monte_carlo_p": 0.0002501876407305479,
+    "null_median": -0.000344691288289,
+    "null_ci_low": -0.025782921549525,
+    "null_ci_high": 0.0246685247097875,
+    "global_moran_abs_delta_per_draw_section_median": 2.1719996813798076e-05,
+    "global_moran_abs_delta_per_draw_section_median_max": 3.890970650929915e-05,
+    "mask_moran_abs_delta_per_draw_section_median": 0.03497492204460627,
+    "mask_moran_abs_delta_per_draw_section_median_max": 0.05761190572112147,
+    "input_draw_files": [
+      "GSE278687_v3_patient_graph_null_draws_batch1.tsv",
+      "GSE278687_v3_patient_graph_null_draws_batch2.tsv",
+      "GSE278687_v3_patient_graph_null_draws_batch3.tsv",
+      "GSE278687_v3_patient_graph_null_draws_batch4.tsv"
+    ],
+    "input_audit_files": [
+      "GSE278687_v3_patient_graph_null_audit_batch1.tsv",
+      "GSE278687_v3_patient_graph_null_audit_batch2.tsv",
+      "GSE278687_v3_patient_graph_null_audit_batch3.tsv",
+      "GSE278687_v3_patient_graph_null_audit_batch4.tsv"
+    ],
+    "graph_null_target": "global outcome Moran I; mask Moran I reported as an audit, not separately calibrated"
+  },
+  {
+    "cohort": "GSE277116",
+    "n_independent_graph_null_draws": 3996,
+    "observed": 0.4136335,
+    "n_as_or_more_extreme": 0,
+    "two_sided_monte_carlo_p": 0.0002501876407305479,
+    "null_median": -0.0005942954587195,
+    "null_ci_low": -0.030712525663612503,
+    "null_ci_high": 0.0308556041019375,
+    "global_moran_abs_delta_per_draw_section_median": 1.5968757557513133e-05,
+    "global_moran_abs_delta_per_draw_section_median_max": 3.267608649931697e-05,
+    "mask_moran_abs_delta_per_draw_section_median": 0.027057457060313667,
+    "mask_moran_abs_delta_per_draw_section_median_max": 0.04946217312230106,
+    "input_draw_files": [
+      "GSE277116_v3_main18_graph_null_draws_batch1.tsv",
+      "GSE277116_v3_main18_graph_null_draws_batch2.tsv",
+      "GSE277116_v3_main18_graph_null_draws_batch3.tsv",
+      "GSE277116_v3_main18_graph_null_draws_batch4.tsv"
+    ],
+    "input_audit_files": [
+      "GSE277116_v3_main18_graph_null_audit_batch1.tsv",
+      "GSE277116_v3_main18_graph_null_audit_batch2.tsv",
+      "GSE277116_v3_main18_graph_null_audit_batch3.tsv",
+      "GSE277116_v3_main18_graph_null_audit_batch4.tsv"
+    ],
+    "graph_null_target": "global outcome Moran I; mask Moran I reported as an audit, not separately calibrated"
+  }
+]

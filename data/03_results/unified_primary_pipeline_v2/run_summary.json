@@ -1,0 +1,43 @@
+{
+  "GSE278687_sections": 21,
+  "GSE278687_patients": 18,
+  "GSE278687_patient_block_null": {
+    "cohort": "GSE278687",
+    "statistic": "cohort median of patient-median local r",
+    "n_patients": 18,
+    "n_null_draws": 199,
+    "observed": 0.41832734324688803,
+    "null_median": 0.27086958151661533,
+    "null_ci_low": 0.24335284787638128,
+    "null_ci_high": 0.294484861899372,
+    "two_sided_p": 0.005
+  },
+  "GSE278687_patient_graph_null": {
+    "cohort": "GSE278687",
+    "statistic": "cohort median of patient-median local r",
+    "n_units": 18,
+    "n_null_draws": 199,
+    "observed": 0.41832734324688803,
+    "null_median": -0.00014824781170715142,
+    "null_ci_low": -0.02590490945589382,
+    "null_ci_high": 0.02170782492333856,
+    "two_sided_p": 0.005,
+    "per_draw_section_median_abs_moran_delta_median": 2.2122259436430092e-05,
+    "per_draw_section_median_abs_moran_delta_max": 3.566831776971591e-05
+  },
+  "GSE277116_packages": 21,
+  "GSE277116_main18": 18,
+  "GSE277116_main18_sample_graph_null": {
+    "cohort": "GSE277116",
+    "statistic": "cohort median of sample-median local r",
+    "n_units": 18,
+    "n_null_draws": 199,
+    "observed": 0.41363346629497855,
+    "null_median": -0.0014419839905687056,
+    "null_ci_low": -0.034319892944242404,
+    "null_ci_high": 0.029730762723137082,
+    "two_sided_p": 0.005,
+    "per_draw_section_median_abs_moran_delta_median": 1.5504945403147646e-05,
+    "per_draw_section_median_abs_moran_delta_max": 2.9592024813659967e-05
+  }
+}
