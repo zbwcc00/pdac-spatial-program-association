@@ -36,7 +36,7 @@ published byte count/SHA-256 for the GSE202051 archive.
 | GSE217847 (GSE217845 PDAC subseries) | limited marker-gated program-detectability QC |
 | GSE202051 | author-annotated fixed-program attribution and specificity QC |
 
-## Reproduce the full v1.0.6 release
+## Reproduce the full v1.0.7 release
 
 This workflow requires Windows PowerShell, Conda (or Mamba), Python 3.12, an
 internet connection to NCBI GEO, and enough free disk space for the raw
@@ -98,12 +98,13 @@ only; it intentionally does not download public data or rerun analyses.
 
 ## Public synchronized release
 
-Release v1.0.6 is a pending integrity-correction release. It regenerates the
-source-and-results manifest after the complete run, excludes nested Python
-caches, and uses stable block ordering for seeded block-null draws. Do not cite
-v1.0.6 until its GitHub release and Zenodo record are published. The existing
-Zenodo concept DOI [10.5281/zenodo.21951887](https://doi.org/10.5281/zenodo.21951887)
-remains the release-family identifier.
+Release v1.0.7 is a pending archive-byte-consistency correction. It rebuilds
+the source-and-results manifest from the exact Git archive bytes, while
+retaining the v1.0.6 scientific outputs, cache exclusions, and stable seeded
+block ordering. Do not cite v1.0.7 until its Git tag and Zenodo record are
+published. The existing Zenodo concept DOI
+[10.5281/zenodo.21951887](https://doi.org/10.5281/zenodo.21951887) remains the
+release-family identifier.
 
 ## Publication metadata
 

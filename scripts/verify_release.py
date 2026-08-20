@@ -57,7 +57,7 @@ def main() -> None:
         "failures": failures,
         "status": "PASS" if not failures else "FAIL",
     }
-    REPORT.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    REPORT.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8", newline="\n")
     print(json.dumps(payload, indent=2, ensure_ascii=False))
     if failures:
         sys.exit(1)

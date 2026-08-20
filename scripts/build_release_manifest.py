@@ -52,7 +52,7 @@ def main() -> None:
         "input_config": "config/public_inputs.json",
         "files": records,
     }
-    OUTPUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    OUTPUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8", newline="\n")
     print(f"Wrote {OUTPUT} with {len(records)} records")
 
 

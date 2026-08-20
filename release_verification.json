@@ -1,8 +1,8 @@
 {
-  "verified_utc": "2026-08-20T14:16:42.605274+00:00",
+  "verified_utc": "2026-08-20T15:33:32.686073+00:00",
   "manifest": "release_manifest.json",
-  "require_inputs": true,
-  "checked_count": 276,
+  "require_inputs": false,
+  "checked_count": 273,
   "failure_count": 0,
   "failures": [],
   "status": "PASS"

@@ -1,13 +1,13 @@
 {
   "schema": "pdac-spatial-program-association-public-release-v2",
-  "created_utc": "2026-08-20T14:16:39.329893+00:00",
+  "created_utc": "2026-08-20T15:33:31.624725+00:00",
   "scope": "public code, manuscript sources, derived results, and figures; raw GEO data excluded",
   "input_config": "config/public_inputs.json",
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 240,
-      "sha256": "fbf8fc80af537537a9b2b0c6bd45a672a860ec75f451916385d1f7bc0cb42078"
+      "bytes": 250,
+      "sha256": "797b09a01a727eaa454c31ccb19cd73f7be4c380e6ca903715d5accd5190f7aa"
     },
     {
       "path": ".github/workflows/validate.yml",
@@ -16,8 +16,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 491,
-      "sha256": "575f444e8c20ddeff5e38a250a7375cf558db1e3743dc44c7ba874412235f1ed"
+      "bytes": 517,
+      "sha256": "3f4db6fafca00fc300f7d79834fbd46d57680a8c09eeb38b6d5b71248308b545"
     },
     {
       "path": "AUTHORS_LICENSE_AND_RELEASE_REQUIRED.md",
@@ -26,13 +26,13 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1479,
-      "sha256": "860ee0e9a2f62a0b1c1ca7474c334feeb8a070f7a00f866b1e579eaa52e324d9"
+      "bytes": 1452,
+      "sha256": "2e37a3285cd984049ae82cdf758103810ebca171ace47156c3e897460035fb6c"
     },
     {
       "path": "CITATION.cff.template",
-      "bytes": 494,
-      "sha256": "bd8e2170d8476767b2f3d40141cddfffb74856363291ff309b72614b24a2a1ce"
+      "bytes": 507,
+      "sha256": "1efad8e684e2f4694b5ccf7e3696e8537c5ac956c8ddb175dc0afba455e7c57f"
     },
     {
       "path": "config/public_inputs.json",
@@ -41,48 +41,48 @@
     },
     {
       "path": "data/03_results/block_size_sensitivity_v1/GSE278687_patient_block_size_sensitivity_metadata.json",
-      "bytes": 333,
-      "sha256": "578a9e993fea46281a7feee75be516d92006e0ef4d20820ca5a66f3bc7aa06d8"
+      "bytes": 323,
+      "sha256": "590953da00613c74f64c083ee2211b7e1fe65fd13b2d36f67567e4c4b3b5976d"
     },
     {
       "path": "data/03_results/block_size_sensitivity_v1/GSE278687_patient_block_size_sensitivity_null_draws.tsv",
-      "bytes": 107040,
-      "sha256": "b909609e9beeea9ac6e161e1e05f94d1433bf60c76548aaf0dd132134f13e3d7"
+      "bytes": 104042,
+      "sha256": "353e338f8b7e89f5b52e9c0035f6f3ca5926591f5fdb9a8a8728581708aadca5"
     },
     {
       "path": "data/03_results/block_size_sensitivity_v1/GSE278687_patient_block_size_sensitivity_summary.tsv",
-      "bytes": 495,
-      "sha256": "1f9b0879e2e1fbf8c54a9938c7b4fea01806bce6523dad35fc9aa920128a32a6"
+      "bytes": 491,
+      "sha256": "156c09021df6261da048f373bdeeed8c3de783763310afe816ad9aac61011b30"
     },
     {
       "path": "data/03_results/conditional_scale_joint_sensitivities_v7/cohort_conditional_scale_summary.tsv",
-      "bytes": 6278,
-      "sha256": "b03dfe86bc367cd743819f062b359f3c98550c39d27f68404801b87e13c84e1e"
+      "bytes": 6229,
+      "sha256": "226260027da6bde84f4cc4e59bcb6d2b2c50a164dd725aa2186a6f78495f29bc"
     },
     {
       "path": "data/03_results/conditional_scale_joint_sensitivities_v7/joint_model_vif_summary.tsv",
-      "bytes": 1463,
-      "sha256": "fd104dd9eaabe2e53ee03d8bdca894e33850c8de6a8d012c01bb471df3957364"
+      "bytes": 1448,
+      "sha256": "a7d3c81d3c3177381d08147bede75e8addc5a6856b6c1a0eeebb204108bc9ec4"
     },
     {
       "path": "data/03_results/conditional_scale_joint_sensitivities_v7/per_section_conditional_scale_effects.tsv",
-      "bytes": 108408,
-      "sha256": "1800ea6ad0f33c77ffdd327bc2e1538b80083afcbaea50bfec0b7b563b8e1be3"
+      "bytes": 107471,
+      "sha256": "b5f78a890837a1a54708e60ed06b19f1abedce77bea950235d70cf7aa75310f1"
     },
     {
       "path": "data/03_results/conditional_scale_joint_sensitivities_v7/per_section_joint_model_vif.tsv",
-      "bytes": 25441,
-      "sha256": "5c2bb02e38d925a5e7ec0d0089b5a9b34636abd4cb9a4826e12131d68e7a7e29"
+      "bytes": 25167,
+      "sha256": "3f0cc393b22d9d7396cb3f38c30f1db5d3dba4097e108af1a5c2046e530eb6cc"
     },
     {
       "path": "data/03_results/conditional_scale_joint_sensitivities_v7/per_section_neighbour_distance_distributions.tsv",
-      "bytes": 18550,
-      "sha256": "c827412e149606f342e1c6225091d696c7423be25db6e1b31ac1cdb09f84226c"
+      "bytes": 18432,
+      "sha256": "88730e966ea780e1e4e56630f0439ce2f2b133523cdcc7a3e5ecfa8d760c2865"
     },
     {
       "path": "data/03_results/conditional_scale_joint_sensitivities_v7/README.md",
-      "bytes": 421,
-      "sha256": "42a6acebaf213fa9b67dae943cd1b1093b9e1f3a9edd7ad0aebc7488b9eb9491"
+      "bytes": 418,
+      "sha256": "bdb824997147709783fdbb0f3a998da75f677460bfe9281ba3b4bc84ca0d29c9"
     },
     {
       "path": "data/03_results/GSE154778_program_freeze/frozen_programs.json",
@@ -91,63 +91,63 @@
     },
     {
       "path": "data/03_results/GSE202051_author_annotated_attribution_v1/analysis_protocol.json",
-      "bytes": 169137,
-      "sha256": "ed0abd7638ac1e0faf96bf5a7222a5ec39cc5629c0a394eced1145a43eb33b2f"
+      "bytes": 160496,
+      "sha256": "fc636711f1ab9d6e1fde28fa6b6bdf847a30107f2830b85be16f45162ea8da1c"
     },
     {
       "path": "data/03_results/GSE202051_author_annotated_attribution_v1/author_label_crosswalk.tsv",
-      "bytes": 1120,
-      "sha256": "498fb27ed72bc76dee7d7606f4b8b1fa3dfec053ded2c7b8350f626bea7818fe"
+      "bytes": 1080,
+      "sha256": "a05d1b5e9bdb17d8fe00651a36a06ae28cb1cc5d2c39cf36a5f043aaf1c3a0f2"
     },
     {
       "path": "data/03_results/GSE202051_author_annotated_attribution_v1/mregDC_activated_dc_minimum_cell_sensitivity.tsv",
-      "bytes": 1192,
-      "sha256": "e287fa12183eb69c578660e01f54297cd23e369009be432e10bc0c93c2b9623e"
+      "bytes": 1189,
+      "sha256": "adb63dc448d81fa5bfed58ebee1ae69c32c739f420340184ed44aa6fefcc231f"
     },
     {
       "path": "data/03_results/GSE202051_author_annotated_attribution_v1/patient_level_label_program_scores.tsv",
-      "bytes": 4746730,
-      "sha256": "f5092df8cced65280534ed17486fde83f61c41ea2e1a3a2cb04aaa2753b193ad"
+      "bytes": 4695899,
+      "sha256": "23aecbe9ff24fa6c87c66aea964727982b470c22ac38bdc42a1dbbffba03c9c8"
     },
     {
       "path": "data/03_results/GSE202051_author_annotated_attribution_v1/patient_level_primary_and_sensitivity_tests.tsv",
-      "bytes": 19219,
-      "sha256": "377ae536533856ce5ec91edf934d0660959ac5796748953495b21aaf1ee7a332"
+      "bytes": 19176,
+      "sha256": "14e06e5aa5007a5c4fb62231d6244eed39222831780d06ac6ead0857e1dc8a08"
     },
     {
       "path": "data/03_results/GSE202051_author_annotated_attribution_v1/program_score_by_author_label.tsv",
-      "bytes": 42942,
-      "sha256": "48bab0ff7eec011429a7c2f4b8d55b80f82fd105a1bc5a22b835ac399616dee9"
+      "bytes": 42551,
+      "sha256": "778a8f249392703b76d66a698a2e08c6e6a273e2193100a6ffc2d54e004d1e66"
     },
     {
       "path": "data/03_results/GSE202051_author_annotated_attribution_v1/program_scoreability_by_author_label.tsv",
-      "bytes": 368167,
-      "sha256": "8148b2dd1ddbc52ce6a7e9baf3b7772aa2b2186570b6a5762f940fca671010d5"
+      "bytes": 365202,
+      "sha256": "0462f69c4bc50ae18f413057d0a09ed54e7a94d81945a6ed0868df1bbb5e385b"
     },
     {
       "path": "data/03_results/GSE202051_author_reference_audit/gse202051_author_reference_audit.json",
-      "bytes": 11181,
-      "sha256": "bd18d5c4acacf6bb8a463b64b1d0b4dd2116380170d69df7ba9288ee679b0589"
+      "bytes": 10762,
+      "sha256": "84463c1e1da5278f7c12552255bd5883a0ca76c185f4a146a8a31552a28e416d"
     },
     {
       "path": "data/03_results/GSE202051_author_reference_audit/gse202051_author_reference_audit.md",
-      "bytes": 1328,
-      "sha256": "d5713c48cdb7a395e2a76bfdd39fc13d9eaaca909150f1cf96745f67c85e943a"
+      "bytes": 1300,
+      "sha256": "1955dc0b96791bd9a320dd3f0b3b3d81cce343c32f5ad8652a274fb473cb7533"
     },
     {
       "path": "data/03_results/GSE217845_marker_gated_single_cell_validation/GSE217845_marker_gated_sample_summary.tsv",
-      "bytes": 2585,
-      "sha256": "40bb57a0c6a29a72b95e25f148871d35bdc4a340fa1486881e8a43a6234a80dd"
+      "bytes": 2574,
+      "sha256": "dbe22ee94e369998254bbfa55bfecd5d9af2419a99de6970f0d9779082c86018"
     },
     {
       "path": "data/03_results/GSE217845_marker_gated_single_cell_validation/GSE217845_marker_gated_state_scores.tsv",
-      "bytes": 5842,
-      "sha256": "177741fa65acd36dbcd53e527925cfa4b6fe6e946c02a5491ab720759fa428f6"
+      "bytes": 5771,
+      "sha256": "3879fca23957528228c324371dff8c7cb9898db85d07b15c3451d99b3864b119"
     },
     {
       "path": "data/03_results/GSE217845_marker_gated_single_cell_validation/GSE217845_marker_gating_protocol.json",
-      "bytes": 2459,
-      "sha256": "587b796bdacdb6840908d8a53ba321c8b0e1a264f752c5aa3c57121feeeaee23"
+      "bytes": 2346,
+      "sha256": "b056f9f31c184ab4372407d412ab3d3db2ced49ac7cbde2a063a6361cf3d648c"
     },
     {
       "path": "data/03_results/GSE277116_audit/GSE277116_geo_sample_manifest.tsv",
@@ -161,28 +161,28 @@
     },
     {
       "path": "data/03_results/GSE277116_full_package_qc/GSE277116_full_package_qc_report.md",
-      "bytes": 2717,
-      "sha256": "9a513111740314424f2d22e591160e48b5962bdcad1695968aa54326af072b61"
+      "bytes": 2684,
+      "sha256": "dd93bda3dc932dac51a268245caaf70a0bee63be5fbb2a7a8a19171ba4124d95"
     },
     {
       "path": "data/03_results/GSE277116_full_package_qc/GSE277116_marker_detection_by_sample.tsv",
-      "bytes": 53307,
-      "sha256": "d1978fc06d7bb313559599b3793f71df5bc80e2f6d1b39f1789bba7acea0ac9b"
+      "bytes": 52526,
+      "sha256": "7d86b71bc1bc89eb5a98da791702b29b2e293315b3f2c4fefc9e82251b939458"
     },
     {
       "path": "data/03_results/GSE277116_full_package_qc/GSE277116_package_qc.tsv",
-      "bytes": 27364,
-      "sha256": "97c91adb5d396fb160d29ef7ac48d1185183e5bbe50cdbc5955d1f34e4c488b5"
+      "bytes": 27335,
+      "sha256": "464221d8d92701138a8e1a004183b71baf2985d449203d74d9f2544b447a5e55"
     },
     {
       "path": "data/03_results/GSE277116_full_package_qc/GSE277116_tumor_replication_manifest.tsv",
-      "bytes": 2191,
-      "sha256": "405b045182f3e779c5e93e463745c5d9c449932d26d8417e9b37509a159d0765"
+      "bytes": 2169,
+      "sha256": "d95913a4742c83b8f8be8296a297bb1bbc5b6673b85cc25fb70849bf43a25c88"
     },
     {
       "path": "data/03_results/GSE277116_spatial_maps_and_robustness/GSE277116_representative_map_selection.tsv",
-      "bytes": 245,
-      "sha256": "e4918081a2bd0e685b505b03d376b51e2224d2e18b34c853d71f1ed80a06947c"
+      "bytes": 242,
+      "sha256": "e0c8e21ce566f35b820d09e08250cf2e3f7d38a877c1dac388eff5c2d6018e1c"
     },
     {
       "path": "data/03_results/GSE277116_spatial_maps_and_robustness/GSE277116_representative_spatial_maps.pdf",
@@ -196,423 +196,423 @@
     },
     {
       "path": "data/03_results/program_scoreability_v3/program_scoreability_by_sample.tsv",
-      "bytes": 43148,
-      "sha256": "e8256785cdc6fab18ca0189f883c874caa740411326ccc8706237227925c2dd5"
+      "bytes": 42796,
+      "sha256": "8ae02c25ad52a9866a9627a1195d5023ec329f01e53eefaf325973b734a42a96"
     },
     {
       "path": "data/03_results/program_scoreability_v3/program_scoreability_summary.tsv",
-      "bytes": 1446,
-      "sha256": "79cd5ae83f5f6978c5206a51d16e46d553b85b0540dfa809e682457d9a1aea07"
+      "bytes": 1427,
+      "sha256": "91ab136ef954885b5b63e53f2000392996ed4ed767e4b8439f5f78e56473ea86"
     },
     {
       "path": "data/03_results/scoreability_threshold_sensitivity_v4/scoreability_threshold_summary_v4.tsv",
-      "bytes": 1968,
-      "sha256": "92f3cb0ba73a1791cc31df1285419f57ca0a550b3628ea63a845577ae746cc16"
+      "bytes": 1959,
+      "sha256": "f7933df3f3577874abaed7437dff9b2b6036e1ade155a7b897549548816d95e3"
     },
     {
       "path": "data/03_results/scoreability_threshold_sensitivity_v4/scoreability_units_v4.tsv",
-      "bytes": 4642,
-      "sha256": "864af15551563d6a6e688eb015ef5970b1141ba960404f3711ebcec694cc81fd"
+      "bytes": 4605,
+      "sha256": "6ec3963721ede3e72531bea5e6a92e97bacd957e83826ac4266c38dd017c662c"
     },
     {
       "path": "data/03_results/spatial_holdout_validation_v1/GSE277116_block_holdout.tsv",
-      "bytes": 34702,
-      "sha256": "e0a4819c6c469ac3de9fcc8c12628aa02c915bcff641d4c82fae42ac75d0407f"
+      "bytes": 34115,
+      "sha256": "e4df6bc1b0302e7be70bacbe351ac4fc27a0fb4245671fda79ab218703bdcdca"
     },
     {
       "path": "data/03_results/spatial_holdout_validation_v1/GSE277116_leave_one_sample_out.tsv",
-      "bytes": 587,
-      "sha256": "388cb5a6dd39bc98b1878245cb12807e8f20164c3dfa6cae72230c3e0c09d875"
+      "bytes": 568,
+      "sha256": "bcffe0a508994f221e72a2fd4755fdf27055a4865c3d2f80e6eddb7565f50f50"
     },
     {
       "path": "data/03_results/spatial_holdout_validation_v1/GSE277116_sample_holdout_summary.tsv",
-      "bytes": 788,
-      "sha256": "a9fb485dde54eea26ff604e29a075671622af0ca7514373fa8ddc6870d1d9e5c"
+      "bytes": 769,
+      "sha256": "371fde6e8198eb376020131ab42af1e33b09c91aea5e0acdb2a708456edd8d3c"
     },
     {
       "path": "data/03_results/spatial_holdout_validation_v1/GSE278687_block_holdout.tsv",
-      "bytes": 71646,
-      "sha256": "5b7fbb2ce593aad8504bcb684b4e96c08f88daf29feba51155cf342fefb333db"
+      "bytes": 70587,
+      "sha256": "c83e2f4a955dc367c50f69b496e98d1cae8db7a43730b55f1ff15fdc16ea05c4"
     },
     {
       "path": "data/03_results/spatial_holdout_validation_v1/GSE278687_leave_one_patient_out.tsv",
-      "bytes": 567,
-      "sha256": "b153d5d56be8879de4c4400427aa7c52c70d9106aba89f5837b49cb1ec406a62"
+      "bytes": 548,
+      "sha256": "0e5710703e0e039a09f290ecfa1347da7676c8751bd686026ad9a8e3f6a735d2"
     },
     {
       "path": "data/03_results/spatial_holdout_validation_v1/GSE278687_patient_holdout_summary.tsv",
-      "bytes": 751,
-      "sha256": "9ae5f62096eb3ecca15ded589b3a07faae1a6e35e563f189b728b5e7ff16acf1"
+      "bytes": 732,
+      "sha256": "49c54a4bb482cdb8354cb3d4ad521d1d0178fc852809cd6e79acd81b7da531ee"
     },
     {
       "path": "data/03_results/spatial_holdout_validation_v1/holdout_manifest.json",
-      "bytes": 1021,
-      "sha256": "93478d2fbd0e9965a4b29dba569bec155627a98f599df11c70b2511365a4fd09"
+      "bytes": 992,
+      "sha256": "371eb083bf7734618679cb0371aca859f40df12a9267def653514ead1e4b1839"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE277116_v3_main18_graph_null.tsv",
-      "bytes": 652,
-      "sha256": "4805456856717bea38d63401138888607d21d9383f3522c70c0a66c8b9aea1cc"
+      "bytes": 650,
+      "sha256": "07b504e4e91c700855b914d04d2f01086031ddb36e79cf22044932cea5d9031c"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE277116_v3_main18_graph_null_audit_batch1.tsv",
-      "bytes": 48150,
-      "sha256": "c5a4d07ff524de8a07ca2722f1024fbcadb5ae26724bb8c798a6da70c9d18ea8"
+      "bytes": 47150,
+      "sha256": "ee4cbe8c00a412c9f4a8fc1b05b5b253870fde4d4085e357a72c6b7e3e74e307"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE277116_v3_main18_graph_null_audit_batch2.tsv",
-      "bytes": 48124,
-      "sha256": "2a883dcb08820f09c57c46eb3a4bf886fa457d9ef4b902fd00845f18898edec9"
+      "bytes": 47124,
+      "sha256": "7a16d7720b39dfc8b7b423f181794aba997f56bcd65176c0a9e9c5b388111238"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE277116_v3_main18_graph_null_audit_batch3.tsv",
-      "bytes": 48128,
-      "sha256": "778a7a08377ec713b691f754a9bdb5975df09ae4af0a25f0b00eef85454be177"
+      "bytes": 47128,
+      "sha256": "3a25b73f06e1ff92a2e790b9efe1655e8086d49ccea69c681405b84c5656ecef"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE277116_v3_main18_graph_null_audit_batch4.tsv",
-      "bytes": 48102,
-      "sha256": "5ae62745df04ab45a0a867b6c68bd67ed3f523e6709cb906271f55f1e14723c9"
+      "bytes": 47102,
+      "sha256": "aa737933d6549089b39ffd63b6a241b822a6fc4208d12deeb804f71fdd2f9537"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE277116_v3_main18_graph_null_draws_batch1.tsv",
-      "bytes": 17947,
-      "sha256": "87292595c7ec5e299b127be9685f227b675c306676b4f517b0184b0172a16f5e"
+      "bytes": 16947,
+      "sha256": "345fecde816046c578597d2372a1aaca06bc7bc1e6b45c7c2d8e8e11923f81db"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE277116_v3_main18_graph_null_draws_batch2.tsv",
-      "bytes": 17971,
-      "sha256": "96366cbddb8d3d4119b99bb20919fc751f030fb29fb487d5426ca4b1b32cc86e"
+      "bytes": 16971,
+      "sha256": "a5a29999542fa1ab90e536542c799375c467d0a6ba60ad350237f2497c35ded6"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE277116_v3_main18_graph_null_draws_batch3.tsv",
-      "bytes": 17932,
-      "sha256": "f78ea3e16c36e142396aff8059a4db906fbd4015e601dbb6ad8a084cea353b3f"
+      "bytes": 16932,
+      "sha256": "602f553381bf31aa064b38ef661ce3dc457111b4a2fa23315fc046e8cf6d96e9"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE277116_v3_main18_graph_null_draws_batch4.tsv",
-      "bytes": 17993,
-      "sha256": "02327cd3f31d77e4c6e9f653fbb682af721492b45bd73866563d9c3f8ae44ee2"
+      "bytes": 16993,
+      "sha256": "a277db92e554441a55baa7439dcaecc2215be5475328fe89229c7c209be9da30"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE277116_v3_per_package.tsv",
-      "bytes": 8218,
-      "sha256": "6c320978da79643e75f8e9f36fcf372174a5de175228b202c3553e8da588887e"
+      "bytes": 8196,
+      "sha256": "fc667447a2936fde374e29d21f3a980bfae663d408c68d9e82c779210345a0c4"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE278687_v3_patient_block_null.tsv",
-      "bytes": 278,
-      "sha256": "a34028f2d3b626ff6c7c98136b9300a47ca7d7f267d6e84fc59613f654c8f85c"
+      "bytes": 276,
+      "sha256": "9acfe3c682f59230340868843d93cbfbd60a6d247d88b5b1aa49b6da36ec2e04"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE278687_v3_patient_block_null_999.tsv",
-      "bytes": 278,
-      "sha256": "acc46412281a4154a9ecebe14b9a2405252e1fa4d2b6527aa96c504dff255f0b"
+      "bytes": 276,
+      "sha256": "1056376126ba1f8dda5a3908c3c318bc36195f50dc40ef7199df1177bc3eaf56"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE278687_v3_patient_graph_null.tsv",
-      "bytes": 649,
-      "sha256": "8102b00a838e6b0ca65045152e6b54e6678d93b6943dd2870bc8b29821141689"
+      "bytes": 647,
+      "sha256": "cb2b1a0a09b36a26c835b8cf89ca0cd4e5169be920493e8496a8671422f147bb"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE278687_v3_patient_graph_null_audit_batch1.tsv",
-      "bytes": 47846,
-      "sha256": "64de988db092b965cc9450908da847cf9a9f35f61f97dc98e82c16e9c0889a5f"
+      "bytes": 46846,
+      "sha256": "fa32d7594a73b3c99b3c5ab20ebb0d0bd6dd159a2ede9cf502e01b86b1b021e5"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE278687_v3_patient_graph_null_audit_batch2.tsv",
-      "bytes": 47832,
-      "sha256": "df96ffbfbcf7858fc697e933651ac4c752f2fbe356c5556ef52316be37339e89"
+      "bytes": 46832,
+      "sha256": "d7d05ae7558b9b29fba6bd7a46eb0744c95e32be655500977ed6419fecaf1f78"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE278687_v3_patient_graph_null_audit_batch3.tsv",
-      "bytes": 47861,
-      "sha256": "9df5bb072b630ed689fd88da782e529a72c37836d6ce76745a9cbe77d7afb5fe"
+      "bytes": 46861,
+      "sha256": "73c9efaff9b6db3234f07fe02c1bec761184d4314e7b8800ab83843c2027d2be"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE278687_v3_patient_graph_null_audit_batch4.tsv",
-      "bytes": 47889,
-      "sha256": "13f614bf7d662db93632d199baf1106e143e7e50573643422dced7bf9de18d86"
+      "bytes": 46889,
+      "sha256": "b4d1884f6b5dd14c4c3f798fb22f074ddaa3a6d75b36c75e2a67584b9332a180"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE278687_v3_patient_graph_null_draws_batch1.tsv",
-      "bytes": 18058,
-      "sha256": "1a8967563c39b74360dc6082cb11aa88589378b5dd5cbe0278937a9754d8e528"
+      "bytes": 17058,
+      "sha256": "d8c6087e9480a02966ff8bb3d91d6b92165c59b8173e884c393d59bf89b4107f"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE278687_v3_patient_graph_null_draws_batch2.tsv",
-      "bytes": 18032,
-      "sha256": "2a179a972510d3b22de875e96066fa0a7e7df5c10d459c706b259d560fa29933"
+      "bytes": 17032,
+      "sha256": "3efccdf7fb2da65b2cd982c4bbeb4bb839907d191b21123bdc904e04894538fd"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE278687_v3_patient_graph_null_draws_batch3.tsv",
-      "bytes": 18043,
-      "sha256": "889ed547bc44c042649aa2d955d8429f83f34875503a982c05dfc769acb265f9"
+      "bytes": 17043,
+      "sha256": "88a9317b2292006c9b71b8448948212a1a6c80c0f040cfa35788d7b70cd6e6d1"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE278687_v3_patient_graph_null_draws_batch4.tsv",
-      "bytes": 18044,
-      "sha256": "81f2c4bd532f8a658451b63244a07b14123020c56de442ccbfcac7423892b827"
+      "bytes": 17044,
+      "sha256": "fb5068c3fba08534db02067d1a00e2ba77458223ad5a3f2509b5fcefee3fcfde"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE278687_v3_per_patient.tsv",
-      "bytes": 4235,
-      "sha256": "8e4c12ae2c7a8af28cf731c78bb03d77c06d955d02c039c3193c12e90d1b8742"
+      "bytes": 4216,
+      "sha256": "218c572b60ad1888148fa7fbe64c203770c5b6e5911ba628d5059bc139f1ac13"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/GSE278687_v3_per_section.tsv",
-      "bytes": 7637,
-      "sha256": "87954b68ff4b596697d8cf58097f64672e0b47ab328d6a6f4d261489671df05e"
+      "bytes": 7615,
+      "sha256": "7e6731fd383715b4618672b8efba685f162db83866e421150c8e8a45a6edb695"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/v3_999_manifest.json",
-      "bytes": 2459,
-      "sha256": "e0c03463050d46195b34b66aa36c1a2965ed1661f561bbc3de880c01ef5f4c94"
+      "bytes": 2406,
+      "sha256": "efd059b2e484a33346b21e68fe3a25c5d9c6928c60be529ae83e6f79ce1cc79f"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/v3_combined_1000_graph_nulls.json",
-      "bytes": 2574,
-      "sha256": "2d0ddf1ebdf572614c302e7c55deccf32876e736535acefdb4d6edd204fdd5cf"
+      "bytes": 2519,
+      "sha256": "b7055a730385262ca34d8cbd8ad4715067dea3f40dd8cf8dee91eaff2678e82c"
     },
     {
       "path": "data/03_results/spatial_nulls_v3_999/v3_combined_1000_graph_nulls.tsv",
-      "bytes": 1762,
-      "sha256": "7a9f148db28b0619bc2868266bc63c73a4b80ec6c6b091c1003a83d97b9c6ee6"
+      "bytes": 1759,
+      "sha256": "e0613dbd77f7e38cf81eac39755fc4237bd7d1360c04dc92ec3547b3cea71ef2"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_audit_batch1.tsv",
-      "bytes": 48097,
-      "sha256": "b38f4b3802d733c007114ed9adf992f9537527287bd8e778dd105c87382a573a"
+      "bytes": 47097,
+      "sha256": "a8d505c1e6a481d1c98b54545cc545ad3b4b943ac2769b6d9098290b571fd5b6"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_audit_batch2.tsv",
-      "bytes": 48110,
-      "sha256": "cdca78932bd99e747bd73c1bf5fa0a234d2151dc10a9bf80e85b68622eaeabc5"
+      "bytes": 47110,
+      "sha256": "75eedaa67dc5d87c542ef9c04dcbb86822020b0d0697dede5b4340092db5fbae"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_audit_batch3.tsv",
-      "bytes": 48075,
-      "sha256": "8f5db47fb4ba7ba3d404223e06c0b14b46175b8ae3cf3c167886717bdf1e7f15"
+      "bytes": 47075,
+      "sha256": "bdf6e0144cd97d678ce71260401a94fcf079b50b2eecc06b636ffccf6f20fc94"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_audit_batch4.tsv",
-      "bytes": 48137,
-      "sha256": "d3aadd66720715cf8933ef1927405c8903cd854b407fe34c1cc2b5fdc18576b3"
+      "bytes": 47137,
+      "sha256": "27304a689ae0a3dc94296e0f7fcc99b8337c92b8dc943e99b6e88b0e5e357115"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_combined_1000.tsv",
-      "bytes": 759,
-      "sha256": "9b336aa1a5142c10f90701a9fe8249383f384e4b8afd4f142aa68040ba1fd7f5"
+      "bytes": 757,
+      "sha256": "259d237245363ceb4f1d8c283c52ef7b088c528bcdbce8502347e75d55803f0c"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_combined_1000_draws.tsv",
-      "bytes": 71565,
-      "sha256": "ddc6a0055fcff7feb18fbc2312ed5acf7277a4a483a60c28b615b1613c0f032b"
+      "bytes": 67568,
+      "sha256": "db93ada33b675a9e2c6b722cd9f901e732d733920381717ea53695fed40f07f0"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_draws_batch1.tsv",
-      "bytes": 17935,
-      "sha256": "22290327c425ab59bffdb459debce0216332f290c48da7fffc56a83625512732"
+      "bytes": 16935,
+      "sha256": "f2359804641e10842e7fadca8d2d033a12e8820907ee4b00fdec337bfb3cecfe"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_draws_batch2.tsv",
-      "bytes": 17897,
-      "sha256": "97559907cee95b0bc561f9bbfd0c17ad05d4c58dcac3fd74359519c500536391"
+      "bytes": 16897,
+      "sha256": "e7f22f35198ba01ba31ed66087709ea3d2ab9b555983da28bf4cf95067815493"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_draws_batch3.tsv",
-      "bytes": 17895,
-      "sha256": "450522a74d35c8fcc7dfe509023bc35d8062d1759d21602ae9412dd03b34ac42"
+      "bytes": 16895,
+      "sha256": "00b5307047ca8d5939d342196745c32909a92e0094ab2a8127d5164b908f6428"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_draws_batch4.tsv",
-      "bytes": 17904,
-      "sha256": "ae42c6f91d1f766c891c71970635dd4c4e0b97a842295df375d16341c39120dc"
+      "bytes": 16904,
+      "sha256": "12fb72fdb82b38bb921a26d94af4cce90a8bb0626802ae8ec847969403bc193d"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_manifest_batch1.json",
-      "bytes": 1155,
-      "sha256": "9c7c377bd664bbaf2bbb1b7c4848717d4377acf0ee25aadfe29e49b4187f170b"
+      "bytes": 1130,
+      "sha256": "1cb55a07a4bac8609866eafc1d99f98d2ec6ebb28fd13d368ffb6f5a52ed5206"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_manifest_batch2.json",
-      "bytes": 1156,
-      "sha256": "462af3e087ae6818a783bb6dde31447ea70fd0a735c7d1f8bce74160b5fa7b5e"
+      "bytes": 1131,
+      "sha256": "9ce99301f389813b4099b4f837f9b0073d7b9bbedaf64e31ed0ad80e6638d055"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_manifest_batch3.json",
-      "bytes": 1151,
-      "sha256": "087bd28b354a18f5e7f3a51cba9243983a3c0a334e8116caacdb3c8bdcd351c2"
+      "bytes": 1126,
+      "sha256": "b98188de4baea381ed17e4657669d2b07ba3db9cbf83cb35b9eddfa89319ee78"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_manifest_batch4.json",
-      "bytes": 1153,
-      "sha256": "0a68f9a9a5dd1b4e06e44b2e75a064bdd7bcb2f926606cf605d2653628107469"
+      "bytes": 1128,
+      "sha256": "1890bea8fdd3b9b46aaabb054c29ec3d4261877e1a007639f5f56ee73aeb81ab"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_null_batch1.tsv",
-      "bytes": 651,
-      "sha256": "26c891b992a7cbf1027c44d71939d0998173afe78ddf9cd8738e328b36033b0c"
+      "bytes": 649,
+      "sha256": "7c2b1d6838b190aae02c09eae19cdb2587632d338b58f5baafa736f17b9ed631"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_null_batch2.tsv",
-      "bytes": 652,
-      "sha256": "b7c27c104a4d42e6886268bbd72885b44d9d646d6aec96ccf39d738f90026c97"
+      "bytes": 650,
+      "sha256": "ffce45620f3fbdf45e9137deb70c91984030d040435cb97e4dd331bdfe364a7d"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_null_batch3.tsv",
-      "bytes": 647,
-      "sha256": "413ae38fbbf82194c17230a52dc4ca0ef2bc8d7f550773ee731265327fe8bd20"
+      "bytes": 645,
+      "sha256": "b8fe459c35742474a5d9380a7f06a903544a335f3c9ae83b93c400a88903489d"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE277116_v4_sample_mask_moran_null_batch4.tsv",
-      "bytes": 649,
-      "sha256": "1639672be03de6454668ca3a6d625280d18ae16a7d8e58df22536d9e0f910306"
+      "bytes": 647,
+      "sha256": "eda80eecca8c24a00207916c90ed6e958f4104f4d8e24dc3cfe2eb0b5f64074c"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_audit_batch1.tsv",
-      "bytes": 47871,
-      "sha256": "32b629900143b4125abff338c4c0fe7ea06d786e38697a7241421f83d16451c7"
+      "bytes": 46871,
+      "sha256": "3b674cfcce3419159bd0fb31b5501cd224215fb731ec099e46ba4da4a7f5d27c"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_audit_batch2.tsv",
-      "bytes": 47910,
-      "sha256": "58d9b91a5d06c70111804a5c0ef6cff73fecfa324c83621ca1c3eeae15462135"
+      "bytes": 46910,
+      "sha256": "cb24892b94275a42a77715ba856c15bab0569a894e78694eeb2bb4eec41375f3"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_audit_batch3.tsv",
-      "bytes": 47902,
-      "sha256": "c29aac1796c65d59eda4fa9c347b64d9ffd737f89897415183089d73088d67ca"
+      "bytes": 46902,
+      "sha256": "37a4ae3244d83b2dab73f874c4270fdf6861d33f4cebac0d5081628864fc3fe0"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_audit_batch4.tsv",
-      "bytes": 47847,
-      "sha256": "61a165d4e74916b805940d24105e35ce2d3dfcfc0dcb0fd344cb76fe9f7da184"
+      "bytes": 46847,
+      "sha256": "31ddd3561e98b54e642b4795661efec456ae46fa04c195b65ed040bb9f53da4b"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_combined_1000.tsv",
-      "bytes": 762,
-      "sha256": "69245b1f6730c8ac00e63ff9ef2a70b9100340f240ba670b9bcb74508a4ba921"
+      "bytes": 760,
+      "sha256": "1b8d4c5524005177cd6805e3398f7c26d1a53e9610c2002902c6f02389c3c4ee"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_combined_1000_draws.tsv",
-      "bytes": 72009,
-      "sha256": "76e71923d530ad5405b11c7d54d7f9e1a1b144d5a642e7b58651c11f8d46cb01"
+      "bytes": 68012,
+      "sha256": "678229b61131cc2843f71762936c22adad67aa0656c9c13d251441065d336068"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_draws_batch1.tsv",
-      "bytes": 18021,
-      "sha256": "7f38ad1f79cdaf40eb7cbaf0413506720e4dec6bcaa4adcc7841b8332f92537b"
+      "bytes": 17021,
+      "sha256": "a0ab9e6b34a65562d7d564b15e3ec02d84fcfe1003eff49dd393d8929f06094d"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_draws_batch2.tsv",
-      "bytes": 18014,
-      "sha256": "b1b1e1575541b70d85da183dd82061b93c69c98fbf4d40363fdf6ff4971356cc"
+      "bytes": 17014,
+      "sha256": "b0f851774c94d75b98f60d37eb41fd1dfcd49ddafb8915d0c4808b12a65276d8"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_draws_batch3.tsv",
-      "bytes": 18037,
-      "sha256": "fb963d0d35d59615c1d3e9223f758a3225f0ce0dbb106cdbd2c484f3e3832326"
+      "bytes": 17037,
+      "sha256": "e81c859793520b53586064c4930240c8b1f55c7b01fab6e24e6473e8458c8355"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_draws_batch4.tsv",
-      "bytes": 18003,
-      "sha256": "3951103078c526440d8c0327aea92f1825b9ccdcf602bc9abd568194f08ee59b"
+      "bytes": 17003,
+      "sha256": "c125c66c604c1027b9e31f28abcf32e1cea6620b37ea1c36ee977d0962616471"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_manifest_batch1.json",
-      "bytes": 1156,
-      "sha256": "84136a0c83d57f0d4d3eba1a80e5d2cf9a6975684c82f1d4095ac20da2d0d420"
+      "bytes": 1131,
+      "sha256": "c85d233245aec061f0a4d2ef988f7ba74a69ba46def07336aaaa00ee97721aec"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_manifest_batch2.json",
-      "bytes": 1157,
-      "sha256": "c8faabf0ea77e15bfb01d514c60082f8da9c22931880498f52d9f1287fae66d0"
+      "bytes": 1132,
+      "sha256": "e350efc2d2b3cf03f32fdba0414992870bd6d6e2af9eb7d6dd789877e31b01a6"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_manifest_batch3.json",
-      "bytes": 1156,
-      "sha256": "12ea906ab1b731712c56674afa1c00e539430edb64ffb30624b1a989bc6973e2"
+      "bytes": 1131,
+      "sha256": "e87622118606ac4530ced2ac299a1b5d942bad07b07d11ced631e6135b812ac9"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_manifest_batch4.json",
-      "bytes": 1154,
-      "sha256": "a4a97ef045748d592504a2a390ed30fa54f339dc5d2ac1c30c6b1e0f6dbdcafe"
+      "bytes": 1129,
+      "sha256": "21865326abcc8af2fb882f1b5c5e51ededd7917ff2481affbd9780d6169013de"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_null_batch1.tsv",
-      "bytes": 652,
-      "sha256": "2f7519094ffeaa7f7b32f8abf42279da8739e205214a074efe3381cc5fa53352"
+      "bytes": 650,
+      "sha256": "b542462e3e41625d51394de002edf1f220b200dd98bbe415fd39d36bac318ac8"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_null_batch2.tsv",
-      "bytes": 653,
-      "sha256": "ea5447af229c16947b2e8d6bdf1a375d90d153cae0c30ce00aa6c82e9fcd7a1f"
+      "bytes": 651,
+      "sha256": "fb40d77101c83468b979859d711a07a0158fefccc1358658f2d7744817518e25"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_null_batch3.tsv",
-      "bytes": 652,
-      "sha256": "a3d557f14462a5fdab9517a9cc22f4220fbf36991d3c7d7d6d4089d55fd944d2"
+      "bytes": 650,
+      "sha256": "5f760e26773bca495092ef44b9b5ec9e1cd9c247a2304419fc3688084ca3ca09"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/GSE278687_v4_patient_mask_moran_null_batch4.tsv",
-      "bytes": 650,
-      "sha256": "ae894c891aadd9b8bf185787b295e529f0c8b077760940578a39662306baabbb"
+      "bytes": 648,
+      "sha256": "b627dd79eea2545da6c941129ca15129cca216711ca7693cc5c3798b4c82a59b"
     },
     {
       "path": "data/03_results/spatial_nulls_v4_mask_moran/v4_mask_moran_combined_1000.json",
-      "bytes": 1844,
-      "sha256": "9643d9e56877e84da9e68c1afa6f6414552352448dd85712dfced11781047037"
+      "bytes": 1807,
+      "sha256": "a1301b3034c028837fa1f352ce1839c3e3b9277d8f6ad551ef1da91779a4c19e"
     },
     {
       "path": "data/03_results/unified_primary_pipeline_v2/GSE277116_v2_main18_graph_null.tsv",
-      "bytes": 383,
-      "sha256": "bd113be325f9361e7d3e1bebcc59b09c336b6f47d2136dd826716edd44e3d621"
+      "bytes": 381,
+      "sha256": "7c0a08dff2d2057862d8db3f6e882157ba600477c0f7971ce3ea2669742a7968"
     },
     {
       "path": "data/03_results/unified_primary_pipeline_v2/GSE277116_v2_per_package.tsv",
-      "bytes": 8092,
-      "sha256": "1ef646c92c30f5317fed1cd2cd3dd7ec573469a7b59e7d312bcb99c91aff3e81"
+      "bytes": 8070,
+      "sha256": "36e3df000338b42c06599a1c13383e320491eb8904c85e7b1686b4621fb2e4e8"
     },
     {
       "path": "data/03_results/unified_primary_pipeline_v2/GSE277116_v2_summary.tsv",
-      "bytes": 6017,
-      "sha256": "b0dba0ce7f4876dc8a12e83beb6944b1c56d886ec9b854620fccab553181ecd1"
+      "bytes": 5976,
+      "sha256": "a1d3a3162cc81c142c15cae58426d6d4a96d8717efd353a5c9e0f675395e8226"
     },
     {
       "path": "data/03_results/unified_primary_pipeline_v2/GSE278687_v2_patient_level_block_null.tsv",
-      "bytes": 242,
-      "sha256": "cecadcf23eecb2bee9627b5ee2378488f533c96a78a5f6a3b8b70b3c96bf9ded"
+      "bytes": 240,
+      "sha256": "d7644058249f1bafc1937aab2576bef6b7beb50bc87ec6b132abd58a3743a0da"
     },
     {
       "path": "data/03_results/unified_primary_pipeline_v2/GSE278687_v2_patient_level_graph_null.tsv",
-      "bytes": 382,
-      "sha256": "8a345b446afc52a26bc3e6698ce10c50f83ae0b16db7582d08595330e1384854"
+      "bytes": 380,
+      "sha256": "e1eba9ed5287496f890e46f556424fac1f6af4e5d41f66121521acbebfa9e44d"
     },
     {
       "path": "data/03_results/unified_primary_pipeline_v2/GSE278687_v2_per_patient.tsv",
-      "bytes": 4235,
-      "sha256": "8e4c12ae2c7a8af28cf731c78bb03d77c06d955d02c039c3193c12e90d1b8742"
+      "bytes": 4216,
+      "sha256": "218c572b60ad1888148fa7fbe64c203770c5b6e5911ba628d5059bc139f1ac13"
     },
     {
       "path": "data/03_results/unified_primary_pipeline_v2/GSE278687_v2_per_section.tsv",
-      "bytes": 7511,
-      "sha256": "9faaef2d9414698da608b840965391f413ddf77b73c745894741de633fe88220"
+      "bytes": 7489,
+      "sha256": "dacf65b5ec58d23abfaffa05999fc0d2cd153d814a2f83c9cc1701ba8d4f195f"
     },
     {
       "path": "data/03_results/unified_primary_pipeline_v2/GSE278687_v2_summary.tsv",
-      "bytes": 1511,
-      "sha256": "e309f259ee429603543ee42de66f1715f22775d1943d49bd901919b953a9f5fc"
+      "bytes": 1500,
+      "sha256": "5fa8152007d2695310569eea7e1e9ef32a3b7a77560a250b199f29febff5fb9f"
     },
     {
       "path": "data/03_results/unified_primary_pipeline_v2/pipeline_manifest.json",
-      "bytes": 1618,
-      "sha256": "2c69abd7284e415878fac461440cc51812cc16a9c8df8746894ef39aafb3a5cd"
+      "bytes": 1571,
+      "sha256": "37ba6adc13bba0a6be6de7e8324e5a6e7b565b8f725d8387cc8640a84a3aaf4b"
     },
     {
       "path": "data/03_results/unified_primary_pipeline_v2/run_summary.json",
-      "bytes": 1541,
-      "sha256": "e50e7125ddb34cd9fecbb2c9e60960a68a939b496d638206ce0151f3e5b06dd6"
+      "bytes": 1499,
+      "sha256": "c062cddbac83d4bbfad792ea6fa5a7d38105e5d04e3c75b50e0a6cea32a5d294"
     },
     {
       "path": "environment-v6.yml",
@@ -691,8 +691,8 @@
     },
     {
       "path": "figures/submission_v6/Figure2_v6_selection_audit.tsv",
-      "bytes": 282,
-      "sha256": "878998bbb1a71d9cd48ffea8944bcfbc546f3aefe5f8a22c185e232e5a88447a"
+      "bytes": 279,
+      "sha256": "16aeb15c653d8e7b5154934482a040898778019896b15363abc7d450bd0869e3"
     },
     {
       "path": "figures/submission_v6/Supplementary_Figure_S2_GSE277116_representative_spatial_maps.pdf",
@@ -746,8 +746,8 @@
     },
     {
       "path": "figures/submission_v6/Supplementary_Figure_S6_selection_audit.tsv",
-      "bytes": 1910,
-      "sha256": "56c11e21f0eb4285604009b8a9b7d64de07c37fc1d42875e46370d6ad358336f"
+      "bytes": 1891,
+      "sha256": "e2b52be42186186de03ec85b48e93dcfb60dfd575772bf41fbc0a19771cbdf16"
     },
     {
       "path": "figures/submission_v6/Supplementary_Figure_S7_conditioning_and_mask_sensitivity.pdf",
@@ -771,8 +771,8 @@
     },
     {
       "path": "LICENSE",
-      "bytes": 1085,
-      "sha256": "2911bf01793fae113d131c0f989dafb5e1f514286ca765077fb3bc67933e6b8f"
+      "bytes": 1106,
+      "sha256": "f531ba92c4eb4674d2ac0f6500eff8be04def09eab0b2d6d3e794666e582ad70"
     },
     {
       "path": "manuscript/analysis_timeline_v1.md",
@@ -786,8 +786,8 @@
     },
     {
       "path": "manuscript/drafts/Manuscript_full_v7_single_cell_attribution.md",
-      "bytes": 43571,
-      "sha256": "cc665935dd0b800ea71d98e2f5e24fd74d18565c5e78cacebcc06d88d8cf92a3"
+      "bytes": 43410,
+      "sha256": "fff3c0c16e44931bcadab25e628e4999eef0a6656903bbca6cb65af09f7dd279"
     },
     {
       "path": "manuscript/external_single_cell_attribution_audit_v3.md",
@@ -856,8 +856,8 @@
     },
     {
       "path": "manuscript/supplementary_v3_final_mask_moran/Supplementary_Figure_S6_selection_audit.tsv",
-      "bytes": 1910,
-      "sha256": "56c11e21f0eb4285604009b8a9b7d64de07c37fc1d42875e46370d6ad358336f"
+      "bytes": 1891,
+      "sha256": "e2b52be42186186de03ec85b48e93dcfb60dfd575772bf41fbc0a19771cbdf16"
     },
     {
       "path": "manuscript/supplementary_v3_final_mask_moran/Supplementary_Figure_S7_conditioning_and_mask_sensitivity.pdf",
@@ -981,13 +981,13 @@
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Methods_and_Data_Dictionary_v3.md",
-      "bytes": 11492,
-      "sha256": "4cfa5f6330d3cdca73cc69e8ba198232bb2c10802b41283273252493fe951f6c"
+      "bytes": 11423,
+      "sha256": "6ecb5d706efa967a2efe8950c2bac698bec171b32c3c2a46bd9574b2abc369bb"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/supplementary_pack_manifest_v7.json",
-      "bytes": 552,
-      "sha256": "2598e5bca4f927175c84ac8cfe500b472a10d5c3142010efef49889124d03df9"
+      "bytes": 545,
+      "sha256": "200833ffed829842f54c39de3bdf8c3b187b9ed4135daf02214b46e43877d836"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S10_GSE278687_block_holdout.tsv",
@@ -1091,23 +1091,23 @@
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S30_GSE202051_author_annotation_crosswalk.tsv",
-      "bytes": 1120,
-      "sha256": "498fb27ed72bc76dee7d7606f4b8b1fa3dfec053ded2c7b8350f626bea7818fe"
+      "bytes": 1080,
+      "sha256": "a05d1b5e9bdb17d8fe00651a36a06ae28cb1cc5d2c39cf36a5f043aaf1c3a0f2"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S31_GSE202051_patient_level_program_tests.tsv",
-      "bytes": 19219,
-      "sha256": "377ae536533856ce5ec91edf934d0660959ac5796748953495b21aaf1ee7a332"
+      "bytes": 19176,
+      "sha256": "14e06e5aa5007a5c4fb62231d6244eed39222831780d06ac6ead0857e1dc8a08"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S32_GSE202051_program_scoreability_by_author_label.tsv",
-      "bytes": 368167,
-      "sha256": "8148b2dd1ddbc52ce6a7e9baf3b7772aa2b2186570b6a5762f940fca671010d5"
+      "bytes": 365202,
+      "sha256": "0462f69c4bc50ae18f413057d0a09ed54e7a94d81945a6ed0868df1bbb5e385b"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S33_GSE202051_activated_DC_minimum_cell_sensitivity.tsv",
-      "bytes": 1192,
-      "sha256": "e287fa12183eb69c578660e01f54297cd23e369009be432e10bc0c93c2b9623e"
+      "bytes": 1189,
+      "sha256": "adb63dc448d81fa5bfed58ebee1ae69c32c739f420340184ed44aa6fefcc231f"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S3_GSE278687_patient_results.tsv",
@@ -1146,13 +1146,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 5550,
-      "sha256": "032a470d1e21fafa5f46ca0d8aec7e09d245d6fb72b8e744690a0c77c3cc10f0"
+      "bytes": 5463,
+      "sha256": "e11d316b21c8bedd579f3b343bcf6edda1f1beb777fda32209dd1527dd0c0aed"
     },
     {
       "path": "RELEASE_CHECKLIST_v7.md",
-      "bytes": 1354,
-      "sha256": "eb321717b6ddf068d40e5db059317d800dd9d77bcd21e935856a423285552f34"
+      "bytes": 1330,
+      "sha256": "1e3e24814f704ab0dbaada1993d3daa99faf180d797a8fb986f1b8c860d1ef79"
     },
     {
       "path": "RELEASE_NOTES_v1.0.1.md",
@@ -1165,9 +1165,14 @@
       "sha256": "b136e7207df315a233319ead42d94dca3058677c51895a7fe3cd7d36b924af44"
     },
     {
+      "path": "RELEASE_NOTES_v1.0.7.md",
+      "bytes": 879,
+      "sha256": "2ed6de50bbbdc0821f52006a97864970badda66a11eec8080da4088185f40502"
+    },
+    {
       "path": "RELEASE_TO_GITHUB_AND_ZENODO.md",
-      "bytes": 2735,
-      "sha256": "63eb65ad787c5e111fba6030f6a5303392685dce139628f3faa6c8675d43cd05"
+      "bytes": 2733,
+      "sha256": "eab220becfb19c36e73a855974fd2ef1a6696d6223136f334231a256e693025e"
     },
     {
       "path": "REPRODUCE_ALL_V7.ps1",
@@ -1222,7 +1227,7 @@
     {
       "path": "scripts/build_public_release_zip.py",
       "bytes": 1911,
-      "sha256": "f97cf50f604f5821feca96c6a99c8671d0c03b5561ebc90703a8cbe801d20e8f"
+      "sha256": "64590e947b9a20dd26cfedf6c1a466c14e6a9bfba64f529c677a21ac93d8feb8"
     },
     {
       "path": "scripts/build_release_manifest.py",
@@ -1356,13 +1361,13 @@
     },
     {
       "path": "zenodo.json",
-      "bytes": 1743,
-      "sha256": "01e28d6924f46d25f9cfc3235d51a6ac27da5aaf149e776caa6226d4efaff53f"
+      "bytes": 1701,
+      "sha256": "15d6643d224ea57ebf5c2ce741331c7dd4d2323e2fef4a2f195edda769cc894d"
     },
     {
       "path": "zenodo.json.template",
-      "bytes": 884,
-      "sha256": "ea422f101563b47043a5f25c0678edfef3b6f01b25a2912795357648071f4597"
+      "bytes": 912,
+      "sha256": "e058deab4632bd6f99341063b0ed931ac6757620266e741e4723c3eb10108edb"
     }
   ]
 }
