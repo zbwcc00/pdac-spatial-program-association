@@ -10,7 +10,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 PROJECT = Path(__file__).resolve().parents[1]
 MANIFEST = PROJECT / "release_manifest.json"
 VERIFICATION = PROJECT / "release_verification.json"
-DEFAULT_OUTPUT = PROJECT.parent / "pdac-spatial-program-association-v1.0.7-source-and-results.zip"
+DEFAULT_OUTPUT = PROJECT.parent / "pdac-spatial-program-association-v1.0.8-source-and-results.zip"
 
 
 def main():

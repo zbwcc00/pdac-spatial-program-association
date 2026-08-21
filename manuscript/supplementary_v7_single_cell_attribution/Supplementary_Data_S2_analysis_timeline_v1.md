@@ -15,5 +15,7 @@ read as one.
 | 2026-08-14 single-cell attribution addendum | Audited the complete GSE202051 author-annotated integrated object and scored unchanged frozen programs using patient-level author-label comparisons | Added after the spatial analyses to resolve a cell-identity evidence gap. It is program-attribution/non-specificity QC, not a prospective confirmation, validation of the spatial association, or a cell-interaction analysis. |
 
 The public repository records scripts, deterministic seeds, output paths, and
-SHA-256 values in its release manifest. The archived GitHub release and stable
-Zenodo concept DOI provide the public reproducibility record for submission.
+SHA-256 values in its release manifest. The version-specific reproducibility
+record cited for submission is Zenodo v1.0.8, DOI
+https://doi.org/10.5281/zenodo.22032109; the stable Zenodo concept DOI is
+https://doi.org/10.5281/zenodo.21951887.

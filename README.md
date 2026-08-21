@@ -36,7 +36,7 @@ published byte count/SHA-256 for the GSE202051 archive.
 | GSE217847 (GSE217845 PDAC subseries) | limited marker-gated program-detectability QC |
 | GSE202051 | author-annotated fixed-program attribution and specificity QC |
 
-## Reproduce the full v1.0.7 release
+## Reproduce the full v1.0.8 release
 
 This workflow requires Windows PowerShell, Conda (or Mamba), Python 3.12, an
 internet connection to NCBI GEO, and enough free disk space for the raw
@@ -98,19 +98,19 @@ only; it intentionally does not download public data or rerun analyses.
 
 ## Public synchronized release
 
-Release v1.0.7 is a pending archive-byte-consistency correction. It rebuilds
-the source-and-results manifest from the exact Git archive bytes, while
-retaining the v1.0.6 scientific outputs, cache exclusions, and stable seeded
-block ordering. Do not cite v1.0.7 until its Git tag and Zenodo record are
-published. The existing Zenodo concept DOI
-[10.5281/zenodo.21951887](https://doi.org/10.5281/zenodo.21951887) remains the
-release-family identifier.
+Release v1.0.8 corrects version-specific Data/Code Availability statements in
+the archived main manuscript and supplementary materials. It retains the
+v1.0.7 source-and-results tree, scientific outputs, cache exclusions, and
+stable seeded block ordering. The version-specific DOI is
+[10.5281/zenodo.22032109](https://doi.org/10.5281/zenodo.22032109); the Zenodo
+concept DOI [10.5281/zenodo.21951887](https://doi.org/10.5281/zenodo.21951887)
+remains the release-family identifier.
 
 ## Publication metadata
 
 `LICENSE`, `CITATION.cff`, and `zenodo.json` hold the release metadata. The
-tagged GitHub release is archived by Zenodo; the stable concept DOI above is
-used consistently in the manuscript and supplementary materials.
+version-specific DOI above is cited consistently in the manuscript and
+supplementary materials.
 
 ## Data and citation
 

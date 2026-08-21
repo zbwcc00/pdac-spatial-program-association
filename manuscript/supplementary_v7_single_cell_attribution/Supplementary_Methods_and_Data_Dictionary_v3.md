@@ -1,4 +1,4 @@
-# Supplementary methods and data dictionary (v7; public release v1.0.5)
+# Supplementary methods and data dictionary (v7; public release v1.0.8)
 
 ## Spatial scoring and covariates
 
@@ -76,4 +76,4 @@ Author-provided cell labels were used without relabelling. Each point is a withi
 
 ## Public reproducibility release
 
-The public reproducibility archive is available through the stable Zenodo concept DOI https://doi.org/10.5281/zenodo.21951887 and GitHub release v1.0.5 (https://github.com/zbwcc00/pdac-spatial-program-association/releases/tag/v1.0.5). The synchronized v1.0.5 package contains the submission manuscript, this supplementary methods/data dictionary, `supplementary_pack_manifest_v7.json`, public reproducibility documentation, and `release_manifest.json`; raw GEO archives are not redistributed. The release manifest records SHA-256 values for public files.
+The version-specific public reproducibility archive cited in this manuscript is Zenodo v1.0.8 (https://doi.org/10.5281/zenodo.22032109). The synchronized v1.0.8 package contains the submission manuscript, this supplementary methods/data dictionary, `supplementary_pack_manifest_v7.json`, public reproducibility documentation, and `release_manifest.json`; raw GEO archives are not redistributed. The release manifest records SHA-256 values for public files. The stable Zenodo concept DOI is https://doi.org/10.5281/zenodo.21951887.

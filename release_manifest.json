@@ -1,13 +1,13 @@
 {
   "schema": "pdac-spatial-program-association-public-release-v2",
-  "created_utc": "2026-08-20T15:33:31.624725+00:00",
+  "created_utc": "2026-08-21T15:22:43.569169+00:00",
   "scope": "public code, manuscript sources, derived results, and figures; raw GEO data excluded",
   "input_config": "config/public_inputs.json",
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 250,
-      "sha256": "797b09a01a727eaa454c31ccb19cd73f7be4c380e6ca903715d5accd5190f7aa"
+      "bytes": 240,
+      "sha256": "fbf8fc80af537537a9b2b0c6bd45a672a860ec75f451916385d1f7bc0cb42078"
     },
     {
       "path": ".github/workflows/validate.yml",
@@ -16,8 +16,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 517,
-      "sha256": "3f4db6fafca00fc300f7d79834fbd46d57680a8c09eeb38b6d5b71248308b545"
+      "bytes": 491,
+      "sha256": "575f444e8c20ddeff5e38a250a7375cf558db1e3743dc44c7ba874412235f1ed"
     },
     {
       "path": "AUTHORS_LICENSE_AND_RELEASE_REQUIRED.md",
@@ -26,13 +26,13 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1452,
-      "sha256": "2e37a3285cd984049ae82cdf758103810ebca171ace47156c3e897460035fb6c"
+      "bytes": 1483,
+      "sha256": "7d39d68df6dd0bb84c74f55cfec9e908789069462458c410eec118e4b0770867"
     },
     {
       "path": "CITATION.cff.template",
-      "bytes": 507,
-      "sha256": "1efad8e684e2f4694b5ccf7e3696e8537c5ac956c8ddb175dc0afba455e7c57f"
+      "bytes": 494,
+      "sha256": "bd8e2170d8476767b2f3d40141cddfffb74856363291ff309b72614b24a2a1ce"
     },
     {
       "path": "config/public_inputs.json",
@@ -771,8 +771,8 @@
     },
     {
       "path": "LICENSE",
-      "bytes": 1106,
-      "sha256": "f531ba92c4eb4674d2ac0f6500eff8be04def09eab0b2d6d3e794666e582ad70"
+      "bytes": 1085,
+      "sha256": "2911bf01793fae113d131c0f989dafb5e1f514286ca765077fb3bc67933e6b8f"
     },
     {
       "path": "manuscript/analysis_timeline_v1.md",
@@ -781,13 +781,13 @@
     },
     {
       "path": "manuscript/drafts/Manuscript_full_v7_single_cell_attribution.docx",
-      "bytes": 6843896,
-      "sha256": "b24e954680b4c26aa9e051dcde21a2a65569f901ae61365a837341e689c4e535"
+      "bytes": 6843829,
+      "sha256": "40de05768cebf2246e05e229c862326b568feefd5f92386b131405c17e8e691e"
     },
     {
       "path": "manuscript/drafts/Manuscript_full_v7_single_cell_attribution.md",
-      "bytes": 43410,
-      "sha256": "fff3c0c16e44931bcadab25e628e4999eef0a6656903bbca6cb65af09f7dd279"
+      "bytes": 43197,
+      "sha256": "76bbe68d09befe67b25f5d9acbf21db7a62e2bf221fb150df1c9b265f4cf7445"
     },
     {
       "path": "manuscript/external_single_cell_attribution_audit_v3.md",
@@ -881,8 +881,8 @@
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Data_S2_analysis_timeline_v1.md",
-      "bytes": 2354,
-      "sha256": "5c642dd666cd0b1bce8f216959a7be5d39df883384b79b2b54f1514fb5404e8f"
+      "bytes": 2440,
+      "sha256": "2fb3260c2a4ffec92328092db7a43051893e8e8e522340c47e836d2bffcc2d14"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Figure_S1_marker_gating_QC.pdf",
@@ -981,13 +981,13 @@
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Methods_and_Data_Dictionary_v3.md",
-      "bytes": 11423,
-      "sha256": "6ecb5d706efa967a2efe8950c2bac698bec171b32c3c2a46bd9574b2abc369bb"
+      "bytes": 11399,
+      "sha256": "86db7e35d7425e92f2ac501a4fae19481712994262bfc1b97545cc43f210598e"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/supplementary_pack_manifest_v7.json",
-      "bytes": 545,
-      "sha256": "200833ffed829842f54c39de3bdf8c3b187b9ed4135daf02214b46e43877d836"
+      "bytes": 728,
+      "sha256": "e5c06e7824c01f31c61cd4058dd098e91cabf271d9f4767497b5f5a40d3ba63c"
     },
     {
       "path": "manuscript/supplementary_v7_single_cell_attribution/Supplementary_Table_S10_GSE278687_block_holdout.tsv",
@@ -1146,13 +1146,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 5463,
-      "sha256": "e11d316b21c8bedd579f3b343bcf6edda1f1beb777fda32209dd1527dd0c0aed"
+      "bytes": 5447,
+      "sha256": "7baabf8e83fbf490a6b25a2968abcce34ff7e5f2ca480e7d774e9797f9b0bac8"
     },
     {
       "path": "RELEASE_CHECKLIST_v7.md",
-      "bytes": 1330,
-      "sha256": "1e3e24814f704ab0dbaada1993d3daa99faf180d797a8fb986f1b8c860d1ef79"
+      "bytes": 841,
+      "sha256": "20b0fe86d330ebf3590ddad63b278e67d710b53139d9d7b6375529c68fa130b8"
     },
     {
       "path": "RELEASE_NOTES_v1.0.1.md",
@@ -1170,9 +1170,14 @@
       "sha256": "2ed6de50bbbdc0821f52006a97864970badda66a11eec8080da4088185f40502"
     },
     {
+      "path": "RELEASE_NOTES_v1.0.8.md",
+      "bytes": 457,
+      "sha256": "7d47f33a6ee291031ed81c8a1dc8e9d258441e0d15bfa534f16412b2d69e729d"
+    },
+    {
       "path": "RELEASE_TO_GITHUB_AND_ZENODO.md",
-      "bytes": 2733,
-      "sha256": "eab220becfb19c36e73a855974fd2ef1a6696d6223136f334231a256e693025e"
+      "bytes": 1673,
+      "sha256": "79093fc9fae24bb384784288bd03a1edb8e38563442e311d2b58dc38d8a39bec"
     },
     {
       "path": "REPRODUCE_ALL_V7.ps1",
@@ -1227,12 +1232,12 @@
     {
       "path": "scripts/build_public_release_zip.py",
       "bytes": 1911,
-      "sha256": "64590e947b9a20dd26cfedf6c1a466c14e6a9bfba64f529c677a21ac93d8feb8"
+      "sha256": "1457381d553c2f9fac9507446cf5a0bf72ce677e0ff5dd4b755061cffef42247"
     },
     {
       "path": "scripts/build_release_manifest.py",
-      "bytes": 2113,
-      "sha256": "3b101b054584bcbb41e6bd40cd3b6c45c9292450e3a6e3861b133625fa219870"
+      "bytes": 2127,
+      "sha256": "077174b5d53eba09ed21a6e19eb66551021b21c5009d0265c10cb2af8df34a5e"
     },
     {
       "path": "scripts/build_release_manifest_v7.py",
@@ -1351,8 +1356,8 @@
     },
     {
       "path": "scripts/verify_release.py",
-      "bytes": 2487,
-      "sha256": "1218ee732c31c4826b2a75a8dcf8cbcdd82f1dc68e4f106875b0d04b58fce583"
+      "bytes": 2501,
+      "sha256": "cf23ec7ec4d297a1e90df4766b1f03b92871fecd088528d81124f5409a7ea17f"
     },
     {
       "path": "scripts/verify_release_v7.py",
@@ -1362,12 +1367,12 @@
     {
       "path": "zenodo.json",
       "bytes": 1701,
-      "sha256": "15d6643d224ea57ebf5c2ce741331c7dd4d2323e2fef4a2f195edda769cc894d"
+      "sha256": "4ce74a494d277800fd5bea52711d6a874eb29ff60d2ed4c0b39d13b59d84d6ad"
     },
     {
       "path": "zenodo.json.template",
-      "bytes": 912,
-      "sha256": "e058deab4632bd6f99341063b0ed931ac6757620266e741e4723c3eb10108edb"
+      "bytes": 884,
+      "sha256": "ea422f101563b47043a5f25c0678edfef3b6f01b25a2912795357648071f4597"
     }
   ]
 }

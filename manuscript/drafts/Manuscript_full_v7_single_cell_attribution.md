@@ -116,11 +116,11 @@ In public PDAC spatial datasets, mregDC-like and T-cell/lymphoid programs showed
 
 ## Data availability
 
-Public data were obtained from GEO (GSE237846, GSE205354, GSE278687, GSE277116, GSE217845, and GSE202051). Accession, primary-study citation, assay, selection rule, and interpretive boundary are documented in Supplementary Table S21. The GSE202051 compressed archive hash, exact object dimensions, annotation fields, program-control lists and result tables are recorded in the single-cell attribution audit. The public reproducibility archive is available through the stable Zenodo concept DOI https://doi.org/10.5281/zenodo.21951887 and GitHub release v1.0.5 (https://github.com/zbwcc00/pdac-spatial-program-association/releases/tag/v1.0.5). It contains this submission manuscript, the final supplementary methods/data dictionary, the supplementary-pack manifest, public reproducibility documentation, and a content-addressed release manifest that fixes SHA-256 values, inputs, selection rules, seeds, batches, and environment. The v2-v7 analysis chronology is documented in Supplementary Data S2. No prospective preregistration is claimed.
+Public data were obtained from GEO (GSE237846, GSE205354, GSE278687, GSE277116, GSE217845, and GSE202051). Accession, primary-study citation, assay, selection rule, and interpretive boundary are documented in Supplementary Table S21. The GSE202051 compressed archive hash, exact object dimensions, annotation fields, program-control lists and result tables are recorded in the single-cell attribution audit. The version-specific public reproducibility archive cited in this manuscript is Zenodo v1.0.8 (https://doi.org/10.5281/zenodo.22032109). It contains this submission manuscript, the final supplementary methods/data dictionary, the supplementary-pack manifest, public reproducibility documentation, and a content-addressed release manifest that fixes SHA-256 values, inputs, selection rules, seeds, batches, and environment. The v2-v7 analysis chronology is documented in Supplementary Data S2. No prospective preregistration is claimed.
 
 ## Code availability
 
-The public code and derived-result archive is available through the stable Zenodo concept DOI https://doi.org/10.5281/zenodo.21951887 and GitHub release v1.0.5 (https://github.com/zbwcc00/pdac-spatial-program-association/releases/tag/v1.0.5). Raw GEO data are not redistributed.
+The public code and derived-result archive cited in this manuscript is Zenodo v1.0.8 (https://doi.org/10.5281/zenodo.22032109). Raw GEO data are not redistributed.
 
 ## Ethics statement
 
